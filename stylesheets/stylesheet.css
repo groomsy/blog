@@ -162,6 +162,14 @@ a.button span {
   background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
 }
 #view-on-github {
+	margin-left: 10px;
+  margin-right: 0;
+}
+
+#tumblr span {
+  background: transparent url(../images/tumblr-icon.png) 12px 50% no-repeat;
+}
+#tumblr {
   margin-right: 0;
 }
 
