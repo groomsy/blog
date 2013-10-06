@@ -69,7 +69,7 @@ header {
 }
 
 header h1 {
-  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
   letter-spacing: -1px;
   font-size: 48px;
   color: #303030;
@@ -170,6 +170,14 @@ a.button span {
   background: transparent url(../images/tumblr-icon.png) 12px 50% no-repeat;
 }
 #tumblr {
+  margin-right: 0;
+}
+
+#scenic span {
+  background: transparent url(../images/scenic-icon.png) 12px 50% no-repeat;
+}
+#scenic {
+	margin-left: 10px;
   margin-right: 0;
 }
 
