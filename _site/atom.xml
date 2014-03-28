@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>GroomsyDev</title>
+ <link href="http://groomsdev.org/atom.xml" rel="self"/>
+ <link href="http://groomsdev.org/"/>
+ <updated>2014-03-28T07:08:48-05:00</updated>
+ <id>http://groomsdev.org</id>
+ <author>
+   <name>Todd Grooms</name>
+   <email>todd.grooms@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Hello, world!</title>
+   <link href="http://groomsdev.org/2014/03/28/hello-world/"/>
+   <updated>2014-03-28T00:00:00-05:00</updated>
+   <id>http://groomsdev.org/2014/03/28/hello-world</id>
+   <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;http://groomsydev.org&quot;&gt;GroomsyDev&lt;/a&gt;. This is the development related companion site to &lt;a href=&quot;http://toddgrooms.com&quot;&gt;toddgrooms.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Feel free to peruse my &lt;a href=&quot;https://github.com/groomsy&quot;&gt;Github projects&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
