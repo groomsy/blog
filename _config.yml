@@ -1,11 +1,11 @@
 title:        GroomsyDev
-tagline:      'Hyde, a Jekyll theme'
-description:  'An elegant open source and mobile first theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:          http://andhyde.com
-version:      1.1.1
+tagline:      'The development homepage for Todd Grooms'
+description:  'This homepage is for the development related musings of <a href="http://toddgrooms.com">Todd Grooms</a>.'
+url:          http://groomsdev.org
+version:      0.0.1
 author:
-  name:       ''
-  email:      ''
+  name:       'Todd Grooms'
+  email:      'todd.grooms@gmail.com'
 markdown:     rdiscount
 permalink:    pretty
 pygments:     true
