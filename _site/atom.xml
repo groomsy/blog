@@ -4,13 +4,37 @@
  <title>GroomsyDev</title>
  <link href="http://groomsdev.org/atom.xml" rel="self"/>
  <link href="http://groomsdev.org/"/>
- <updated>2014-03-28T07:08:48-05:00</updated>
+ <updated>2014-06-03T15:22:47-05:00</updated>
  <id>http://groomsdev.org</id>
  <author>
    <name>Todd Grooms</name>
    <email>todd.grooms@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Introducing CoreDataMate</title>
+   <link href="http://groomsdev.org/2014/04/09/introducing-core-data-mate/"/>
+   <updated>2014-04-09T00:00:00-05:00</updated>
+   <id>http://groomsdev.org/2014/04/09/introducing-core-data-mate</id>
+   <content type="html">&lt;p&gt;A few years ago, I started development on a project that required long term persistence. Up until that point, most all of my persistence was handled on the server. This project required that I persist data locally on the user&#39;s device, in conjunction with persisting data remotely on a server. As this was an iOS project and Apple is &quot;all-in&quot; with Core Data, I decided I had better get &quot;all-in&quot; with Core Data as well.&lt;/p&gt;
+
+&lt;p&gt;I read through every Core Data tutorial I could find on the internet. Regardless of how many times I tried, I just could not grasp what was happening in Core Data. After complaining about this to some of my coworkers, I had a few of them recommend &lt;a href=&quot;https://github.com/magicalpanda/MagicalRecord&quot;&gt;MagicalRecord&lt;/a&gt;. I am not going to question the quality of this library; I have no doubt that it is well written and works as advertised. The issue is that I don&#39;t understand what the library is doing behind the curtain. I use libraries all the time, but when I use them, I want to understand what they are doing (more or less) without blindly trusting them. For whatever reason, I simply cannot wrap my head around what MagicalRecord is doing. It seems as though you can arbitrarily create objects on any context and save them. This is one of the library&#39;s goals. However, one thing I have come to understand is that you need to ensure that every thread has it&#39;s very own context so that you don&#39;t &quot;cross the streams&quot; so to speak. Try as I might, I simply could not ensure this using MagicalRecord. This is when I decided to go old school and purchase a book: &lt;a href=&quot;http://pragprog.com/book/mzcd2/core-data&quot;&gt;Core Data (2nd Edition): Data Storage and Management for iOS, OS X, and iCloud&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/dont_cross_the_streams.jpg&quot; alt=&quot;Don&#39;t cross the streams&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After reading through &lt;em&gt;Core Data (2nd Edition)&lt;/em&gt;, I started writing what I called a &quot;data manager&quot;. The data manager is a simple class that acts as a gateway to your persistent store. The data manager houses a private context which is considered to be the master copy. You do not have direct access to this context from any public facing methods in the data manager. The context that you work with predominantly will be a child context of the private context. This child context is a main queue context that I have appropriately named &lt;code&gt;mainContext&lt;/code&gt;. The main queue context will be the context that you predominantly work with. This is the context with which your UI will directly interact.&lt;/p&gt;
+
+&lt;p&gt;This is all great, except for the very real use case when you will need to write content to your persistent store. What then? Well, the data manager&#39;s current pattern dictates that you create a new temporary context for your thread (this can even be the main thread if you like, the point is that you just want a temporary context with which to work) whose parent will be the data manager&#39;s &lt;code&gt;mainContext&lt;/code&gt;; you will then make any changes that are necessary on this temporary context. After you are finished, you&#39;ll persist your temporary context which will write those changes upstream to the data manager&#39;s &lt;code&gt;mainContext&lt;/code&gt;. If that persist is successful, simply call:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[[CDMDataManager sharedManager] persist:YES];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which will write the &lt;code&gt;mainContext&lt;/code&gt;&#39;s changes upstream to the data manager&#39;s private context (the BOOL value indicates that it should be a synchronous save; a NO here would result in an asynchronous save). At that point, your new content is in your persistent store and you have the added benefit of your UI already being updated with this content as your changes already exist on the &lt;code&gt;mainContext&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is a rudimentary example, but I wanted to show how easy Core Data can be to work with, with a bit of caution and understanding. Ready to check out the source code or give it a spin yourself? Head on over to &lt;a href=&quot;https://github.com/groomsy/coredatamate&quot;&gt;CoreDataMate on Github&lt;/a&gt; to check out the source. If you&#39;re impatient and want to play with the code (and you use &lt;a href=&quot;http://cocoapods.org&quot;&gt;Cocoapods&lt;/a&gt;) just add this to your Podfile: &lt;code&gt;pod &quot;CoreDataMate&quot;&lt;/code&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Hello, world!</title>

@@ -7,7 +7,7 @@
   <link href="http://gmpg.org/xfn/11" rel="profile">
 
   <title>
-    
+    Introducing CoreDataMate &middot; 
     The development homepage for Todd Grooms
   </title>
 
@@ -48,18 +48,10 @@
     </header>
 
     <div class="content container">
-      <div class="posts">
-  
-  <div class="post">
-    <h1>
-      <a href="/2014/04/09/introducing-core-data-mate/">
-        Introducing CoreDataMate
-      </a>
-    </h1>
-
-    <span class="post-date">09 Apr 2014</span>
-
-    <p>A few years ago, I started development on a project that required long term persistence. Up until that point, most all of my persistence was handled on the server. This project required that I persist data locally on the user's device, in conjunction with persisting data remotely on a server. As this was an iOS project and Apple is "all-in" with Core Data, I decided I had better get "all-in" with Core Data as well.</p>
+      <div class="post">
+  <h1>Introducing CoreDataMate</h1>
+  <span class="post-date">09 Apr 2014</span>
+  <p>A few years ago, I started development on a project that required long term persistence. Up until that point, most all of my persistence was handled on the server. This project required that I persist data locally on the user's device, in conjunction with persisting data remotely on a server. As this was an iOS project and Apple is "all-in" with Core Data, I decided I had better get "all-in" with Core Data as well.</p>
 
 <p>I read through every Core Data tutorial I could find on the internet. Regardless of how many times I tried, I just could not grasp what was happening in Core Data. After complaining about this to some of my coworkers, I had a few of them recommend <a href="https://github.com/magicalpanda/MagicalRecord">MagicalRecord</a>. I am not going to question the quality of this library; I have no doubt that it is well written and works as advertised. The issue is that I don't understand what the library is doing behind the curtain. I use libraries all the time, but when I use them, I want to understand what they are doing (more or less) without blindly trusting them. For whatever reason, I simply cannot wrap my head around what MagicalRecord is doing. It seems as though you can arbitrarily create objects on any context and save them. This is one of the library's goals. However, one thing I have come to understand is that you need to ensure that every thread has it's very own context so that you don't "cross the streams" so to speak. Try as I might, I simply could not ensure this using MagicalRecord. This is when I decided to go old school and purchase a book: <a href="http://pragprog.com/book/mzcd2/core-data">Core Data (2nd Edition): Data Storage and Management for iOS, OS X, and iCloud</a>.</p>
 
@@ -76,34 +68,24 @@
 
 <p>This is a rudimentary example, but I wanted to show how easy Core Data can be to work with, with a bit of caution and understanding. Ready to check out the source code or give it a spin yourself? Head on over to <a href="https://github.com/groomsy/coredatamate">CoreDataMate on Github</a> to check out the source. If you're impatient and want to play with the code (and you use <a href="http://cocoapods.org">Cocoapods</a>) just add this to your Podfile: <code>pod "CoreDataMate"</code>.</p>
 
-  </div>
-  
-  <div class="post">
-    <h1>
-      <a href="/2014/03/28/hello-world/">
-        Hello, world!
-      </a>
-    </h1>
-
-    <span class="post-date">28 Mar 2014</span>
-
-    <p>Welcome to <a href="http://groomsydev.org">GroomsyDev</a>. This is the development related companion site to <a href="http://toddgrooms.com">toddgrooms.com</a>.</p>
-
-<p>Feel free to peruse my <a href="https://github.com/groomsy">Github projects</a>.</p>
-
-  </div>
-  
 </div>
 
-<!-- Pagination links -->
-<div class="pagination">
-  
-    <span class="next">Older</span>
-  
-  
-    <span class="previous">Newer</span>
-  
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2014/03/28/hello-world/">
+            Hello, world!
+            <small>28 Mar 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
 </div>
+
     </div>
 
   </body>
