@@ -12,10 +12,15 @@ _Note: This article was triggered by the arrival of my new MacBook Air._
 
 
 ## Initial Boot
-Boot the machine and setup your account. Log into iCloud and setup _Find my Mac_ and _iCloud Keychain_. Update any and all system software. Clean up your dock and set any color preferences you may have. Mine is pretty basic.
+Boot the machine and setup your account. Log into iCloud and setup _Find my Mac_ and _iCloud Keychain_. Update any and all system software. Clean up your dock and set any color preferences you may have. Mine is pretty basic:
+
+### Finder
+* Set `New Finder windows show` to your user's home folder.
+* Set view options to arrange by Name and click `Use as Defaults`.
+* On the desktop, set view options to arrange by kind.
 
 ## Install Apple Software / Software from the Mac App Store
-The important software:
+
 ### [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 This is a no-brainer. I spend the overwhelming majority of my development time working on iOS projects or piddling with Mac projects. A few things to remember when setting up Xcode:
 * Login to your Apple developer account under `Preferences` > `Accounts`.
@@ -26,5 +31,29 @@ I can use Git on the command line, but I would prefer not to. This is my favorit
 
 ### [NoteAway](https://itunes.apple.com/us/app/noteaway-your-thoughts-in/id559541463?mt=12)
 A local Nashville developer wrote this software. It has quickly earned a spot in my menubar. The idea is dead simple: A notebook that sites in your menubar that is a keyboard shortcut away. Quickly paste in copied text or jot down ideas. I use it to track my line of thinking throughout my day so that I do not lose my place.
+
+## Install Other Software / Tool Setup
+### [Dropbox](https://www.dropbox.com)
+In addition to using Dropbox for easy cloud storage, I also use it to sync most of my settings / preferences between machines. It's usually one of the first things I install as it holds the "key" for me (see the next section).
+
+### [1Password](https://agilebits.com/onepassword)
+* Ensure 1Password is pointing to the vault being synced by Dropbox.
+* Enable Watchtower.
+* Install Safari extension.
+
+### [BBEdit](http://www.barebones.com/products/bbedit/)
+* Install command line tools.
+* Under the Appearance preferences, uncheck `Page guide at X characters`.
+* Under the Editor Defaults preferences, check `Soft wrap text to:` and select `Window width`.
+* Download [Gruber Dark](https://daringfireball.net/projects/bbcolors/schemes/Gruber%20Dark.bbcolors.zip) color scheme and save it to `~/Library/Application\ Support/BBEdit/Color\ Schemes/`; Change the color scheme under the Text Colors preferences.
+
+### Git / Bitbucket / Github
+* Generate an SSH Key using `ssh-keygen`; Default save location/name, no password.
+* Add public SSH Key to Bitbucket and Github.
+* Set Git Username: `git config --global user.name "Todd Grooms"`
+* Set Git Email: `git config --global user.email "name@domain.com"`
+
+
+
 
 There are other pieces of software that I install, but these are the most important and the ones that I cannot function without.
