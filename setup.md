@@ -46,6 +46,7 @@ In addition to using Dropbox for easy cloud storage, I also use it to sync most 
 * Under the Appearance preferences, uncheck `Page guide at X characters`.
 * Under the Editor Defaults preferences, check `Soft wrap text to:` and select `Window width`.
 * Download [Gruber Dark](https://daringfireball.net/projects/bbcolors/schemes/Gruber%20Dark.bbcolors.zip) color scheme and save it to `~/Library/Application\ Support/BBEdit/Color\ Schemes/`; Change the color scheme under the Text Colors preferences.
+* BBEdit now supports syncing the items within Application Support over Dropbox! Just quit BBEdit and copy the `BBEdit` folder from `~/Library/Application\ Support` to `~/Dropbox/Application\ Support`. It should automatically pick up the copy in your Dropbox folder the next time you launch BBEdit.
 
 ### Git / Bitbucket / Github
 * Generate an SSH Key using `ssh-keygen`; Default save location/name, no password.
@@ -53,7 +54,12 @@ In addition to using Dropbox for easy cloud storage, I also use it to sync most 
 * Set Git Username: `git config --global user.name "Todd Grooms"`
 * Set Git Email: `git config --global user.email "name@domain.com"`
 
+### Update Ruby; Install RVM
+* Run the following command in Terminal: `\curl -sSL https://get.rvm.io | bash -s stable`
+* Install the latest version of Ruby: `rvm install ruby`
+* Agree to allow Homebrew to be installed.
 
-
+### Cocoapods
+* `gem install cocoapods`
 
 There are other pieces of software that I install, but these are the most important and the ones that I cannot function without.
