@@ -55,14 +55,18 @@ In addition to using Dropbox for easy cloud storage, I also use it to sync most 
 * Set Git Email: `git config --global user.email "name@domain.com"`
 * Set BBEdit as default git difftool by adding the following to your `.gitconfig` (_Note: Must have BBEdit command line tools installed_):
 
+```
     [difftool "bbdiff"]
       cmd = bbdiff --wait --resume --ignore-spaces "$LOCAL" "$REMOTE"
+```
 
 * Setup git autocomplete script (downloaded to Dropbox from `https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash`) by adding the following to your `.bash_profile`:
 
+```
     if [ -f ~/Dropbox/.git-completion.bash ]; then
       . ~/Dropbox/.git-completion.bash
     fi
+```
 
 ### Update Ruby; Install RVM
 * Run the following command in Terminal: `\curl -sSL https://get.rvm.io | bash -s stable`
