@@ -56,6 +56,10 @@ In addition to using Dropbox for easy cloud storage, I also use it to sync most 
 * Set BBEdit as default git difftool by adding the following to your `.gitconfig` (_Note: Must have BBEdit command line tools installed_):
 
 ```
+[diff]
+    tool = "bbdiff"
+[difftool]
+    prompt = false
 [difftool "bbdiff"]
   cmd = bbdiff --wait --resume --ignore-spaces "$LOCAL" "$REMOTE"
 ```
