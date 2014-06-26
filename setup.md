@@ -49,6 +49,7 @@ In addition to using Dropbox for easy cloud storage, I also use it to sync most 
 * BBEdit now supports syncing the items within Application Support over Dropbox! Just quit BBEdit and copy the `BBEdit` folder from `~/Library/Application\ Support` to `~/Dropbox/Application\ Support`. It should automatically pick up the copy in your Dropbox folder the next time you launch BBEdit.
 
 ### Git / Bitbucket / Github
+* Install [Solarized Dark](https://github.com/tomislav/osx-terminal.app-colors-solarized) theme for Terminal.
 * Generate an SSH Key using `ssh-keygen`; Default save location/name, no password.
 * Add public SSH Key to Bitbucket and Github.
 * Set Git Username: `git config --global user.name "Todd Grooms"`
