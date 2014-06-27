@@ -28,7 +28,7 @@ This is a no-brainer. I spend the overwhelming majority of my development time w
 * Setup CodeSnippet sync through Dropbox by running the following command (assumes Xcode CodeSnippet directory lives in Dropbox):
 
 ```
-ln -s ~/Dropbox/Xcode/CodeSnippets CodeSnippets
+$ ln -s ~/Dropbox/Xcode/CodeSnippets CodeSnippets
 ``` 
 
 ### [Gitbox](https://itunes.apple.com/us/app/gitbox/id403388357?mt=12)
@@ -52,13 +52,33 @@ In addition to using Dropbox for easy cloud storage, I also use it to sync most 
 * Under the Editor Defaults preferences, check `Soft wrap text to:` and select `Window width`.
 * Download [Gruber Dark](https://daringfireball.net/projects/bbcolors/schemes/Gruber%20Dark.bbcolors.zip) color scheme and save it to `~/Library/Application\ Support/BBEdit/Color\ Schemes/`; Change the color scheme under the Text Colors preferences.
 * BBEdit now supports syncing the items within Application Support over Dropbox! Just quit BBEdit and copy the `BBEdit` folder from `~/Library/Application\ Support` to `~/Dropbox/Application\ Support`. It should automatically pick up the copy in your Dropbox folder the next time you launch BBEdit.
+* Setup BBEdit as the default `BUNDLER_EDITOR`:
+
+```
+$ export BUNDLER_EDITOR=bbedit
+```
 
 ### Git / Bitbucket / Github
 * Install [Solarized Dark](https://github.com/tomislav/osx-terminal.app-colors-solarized) theme for Terminal.
-* Generate an SSH Key using `ssh-keygen`; Default save location/name, no password.
+* Generate an SSH Key; Default save location/name, no password.
+
+```
+$ ssh-keygen
+```
+
 * Add public SSH Key to Bitbucket and Github.
-* Set Git Username: `git config --global user.name "Todd Grooms"`
-* Set Git Email: `git config --global user.email "name@domain.com"`
+* Set Git Username:
+
+```
+$ git config --global user.name "FirstName LastName"`
+```
+
+* Set Git Email:
+
+```
+$ git config --global user.email "name@domain.com"`
+```
+
 * Set BBEdit as default git difftool by adding the following to your `.gitconfig` (_Note: Must have BBEdit command line tools installed_):
 
 ```
@@ -84,6 +104,8 @@ fi
 * Agree to allow Homebrew to be installed.
 
 ### Cocoapods
-* `gem install cocoapods`
+```
+$ gem install cocoapods`
+```
 
 There are other pieces of software that I install, but these are the most important and the ones that I cannot function without.
