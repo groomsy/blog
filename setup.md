@@ -25,6 +25,11 @@ Boot the machine and setup your account. Log into iCloud and setup _Find my Mac_
 This is a no-brainer. I spend the overwhelming majority of my development time working on iOS projects or piddling with Mac projects. A few things to remember when setting up Xcode:
 * Login to your Apple developer account under `Preferences` > `Accounts`.
 * Enable line numbers for your editor by ticking the `Line numbers` option under `Preferences` > `Text Editing`.
+* Setup CodeSnippet sync through Dropbox by running the following command (assumes Xcode CodeSnippet directory lives in Dropbox):
+
+```
+ln -s ~/Dropbox/Xcode/CodeSnippets CodeSnippets
+``` 
 
 ### [Gitbox](https://itunes.apple.com/us/app/gitbox/id403388357?mt=12)
 I can use Git on the command line, but I would prefer not to. This is my favorite, no-frills Git GUI client.
