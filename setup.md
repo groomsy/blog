@@ -46,6 +46,11 @@ In addition to using Dropbox for easy cloud storage, I also use it to sync most 
 * Enable Watchtower.
 * Install Safari extension.
 
+### [Alfred](http://www.alfredapp.com)
+I was a big Quicksilver fan, but moved to this about 6 - 8 months ago. It's been a smooth transition and it definitely seems more updated than Quicksilver. I sync my workflows in Dropbox so that all my machines have the same workflows. Buy the Powerpack, you won't regret it. The workflows I cannot live without:
+* [Alfred Cocoapods Search](https://github.com/alladinian/Alfred-CocoaPods-Search)
+* [Alfred NSC - Number System Converter](https://github.com/hzlzh/AlfredWorkflow.com/tree/master/Sources/Workflows/nsc)
+
 ### [BBEdit](http://www.barebones.com/products/bbedit/)
 * Install command line tools.
 * Under the Appearance preferences, uncheck `Page guide at X characters`.
