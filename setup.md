@@ -110,7 +110,7 @@ fi
 
 ### Cocoapods
 ```
-$ gem install cocoapods`
+$ gem install cocoapods
 ```
 
 There are other pieces of software that I install, but these are the most important and the ones that I cannot function without.
