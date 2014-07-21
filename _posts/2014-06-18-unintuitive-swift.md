@@ -58,7 +58,7 @@ I will not bore you with the details on how to iterate over an array backwards i
       println(index)
     }
     
-The above code will loop four times (the `...` in this case indicates inclusive, meaning `<= 3`; If you wanted to be exclusive, meaning `< 3`, use `..` instead). Using my prior knowledge of Ruby, which has a similar `for` loop structure, I assumed that performing this loop in a reverse order would look like:
+The above code will loop four times (the `...` in this case indicates inclusive, meaning `<= 3`; If you wanted to be exclusive, meaning `< 3`, use `..` instead). I assumed that performing this loop in a reverse order would look like:
 
     for index in 3...0 {
       println(index)
