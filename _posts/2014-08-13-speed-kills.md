@@ -11,7 +11,7 @@ If you were to look at my commit history for yesterday, you might believe that I
 
 > Nasty Commit to Save Work
 > Attempting to add tests to verify that the link -> entity relationship is working correctly; Cleaning up some stringified keys and using NSStringFromSelector instead.
->
+> 
 > America is all about speed. Hot, nasty, badass speed. -Eleanor Roosevelt, 1936
 
 That commit message makes absolutely no sense (and yes, I actually did include that quote in the message). I was frustrated. That commit touched fourteen files, contained two hundred and seventy-three additions, and disregarded fifty-nine deletions. It was a mess. Quite frankly, I'm ashamed of it.
