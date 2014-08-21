@@ -8,5 +8,5 @@ author:
   email:      'todd.grooms@gmail.com'
 markdown:     rdiscount
 permalink:    pretty
-pygments:     true
+highlighter:     true
 paginate:     5
