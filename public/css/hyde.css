@@ -162,15 +162,8 @@ blockquote {
   border-left: 5px solid #eee;
 }
 blockquote p {
-  margin-bottom: 0;
   color: #7a7a7a;
   text-indent: -0.4em;
-}
-blockquote p:before {
-  content: '\201C';
-}
-blockquote p:after {
-  content: '\201D';
 }
 
 img {
@@ -200,13 +193,13 @@ img {
  */
 
 a {
-  font-weight: 600;
+  box-shadow: inset 0 -4px 0 #cbeefa;
   color: #222;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  text-decoration: underline;
+  color: #444;
 }
 
 
@@ -235,7 +228,13 @@ a:focus {
   margin-bottom: 0;
 }
 .masthead a {
+  box-shadow: none;
   color: #fff;
+  font-weight: 600;
+}
+.masthead a:hover,
+.masthead a:focus {
+  color: #ddd;
 }
 
 /* Footer area of masthead */
@@ -318,6 +317,10 @@ a:focus {
   }
 }
 
+.post a {
+  box-shadow: none;
+}
+
 /* Meta data line below post title */
 .post-date {
   display: block;
@@ -329,7 +332,7 @@ a:focus {
 .related {
   padding-top: 20px;
   padding-bottom: 40px;
-  border-top: 1px solid #eee;
+
 }
 .related-posts {
   padding-left: 0;
