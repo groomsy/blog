@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Speed Kills
+comments: true
 ---
 
 > America is all about speed. Hot, nasty, badass speed. -Eleanor Roosevelt, 1936
