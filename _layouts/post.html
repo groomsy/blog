@@ -8,8 +8,18 @@ layout: default
   {{ content }}
 </div>
 
+<div class="related">
+  {% if page.previous %}
+  <strong>Previous Post</strong> <a href="{{page.previous.url}}" style="margin-left: 10px;">{{ page.previous.title }}</a>
+  {% endif %}
+  {% if page.next %}
+  <strong>Next Post</strong> <a href="{{page.next.url}}" style="margin-left: 10px;">{{ page.next.title }}</a>
+  {% endif %}
+</div>
+
 {% if page.comments %}
   <div class="comments">
+    <h2>Comments</h2>
     <div id="disqus_thread"></div>
     <script type="text/javascript">
       /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
