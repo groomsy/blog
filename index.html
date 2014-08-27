@@ -11,6 +11,10 @@ layout: default
       </a>
     </h1>
 
+    {% if post.subtitle %}
+      <span class="post-subtitle">{{ post.subtitle }}</span>
+    {% endif %}
+
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
     {{ post.excerpt }}
