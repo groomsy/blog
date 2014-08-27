@@ -1,8 +1,8 @@
-title:        GroomsyDev
-tagline:      'The development homepage for Todd Grooms'
-description:  'This homepage is for the development related musings of <a href="http://toddgrooms.com">Todd Grooms</a>.'
+title:        Todd Grooms
+tagline:      'The homepage for Todd Grooms'
+description:  'This is the homepage of <a href="http://toddgrooms.com">Todd Grooms</a>.'
 url:          http://groomsydev.org
-version:      0.0.1
+version:      0.0.2
 author:
   name:       'Todd Grooms'
   email:      'todd.grooms@gmail.com'
