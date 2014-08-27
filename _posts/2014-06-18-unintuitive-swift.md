@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Unintuitive Swift
+comments: true
+tags: development
 ---
 
 In case you have been living under a rock, Apple announced a new language at this year's WWDC: Swift. I have been anxious to work with the new language beyond reading the Apple supplied [The Swift Programming Language](https://itunes.apple.com/us/book/swift-programming-language/id881256329?mt=11) and the new Playground Xcode feature (which is a new way to experiment with Swift without using it in a project). I have recently been working on a new personal project (I am not ready to talk in great detail at this time, but it is a Mac application) and since the project is still in it's early stages, I decided to convert the project over and start using Swift in this project. Converting the project went smoothly and developers have the benefit of mixing and matching between Swift and Objective-C. I currently have a couple of classes written in Swift that play along nicely with the rest of my Objective-C code. I was skeptical when this capability was announced, but so far it has been working as Apple advertised.

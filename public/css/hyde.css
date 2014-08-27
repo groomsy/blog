@@ -317,7 +317,25 @@ a:focus {
   }
 }
 
-.post a {
+.post-title-holder {
+  display: inline-block;
+}
+
+.post-title {
+  float: left;
+}
+
+.post-tag {
+  background: #454441;
+  border-radius: 15px;
+  color: #ffffff;
+  float: right;
+  font-size: 60%;
+  margin: 15px 0px 0px 10px;
+  padding: 3px 8px 3px 8px;
+}
+
+.post-title-link {
   box-shadow: none;
 }
 

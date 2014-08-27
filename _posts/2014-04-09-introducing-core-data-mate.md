@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Introducing CoreDataMate
+comments: true
+tags: development
 ---
 
 A few years ago, I started development on a project that required long term persistence. Up until that point, most all of my persistence was handled on the server. This project required that I persist data locally on the user's device, in conjunction with persisting data remotely on a server. As this was an iOS project and Apple is "all-in" with Core Data, I decided I had better get "all-in" with Core Data as well.

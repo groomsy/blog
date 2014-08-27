@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Defective Mood
+comments: true
+tags: development
 ---
 
 As I age, I am perturbed that my mood is directly tied to what I feel that I am either accomplishing or not accomplishing at work or, rather, in software development. I have recently found that I can be quite foul if I encounter a problem in software that I am writing. I encounter many problems that do not affect me, but I have found that the ones that do affect me tend to have the same earmarks: an unfamiliarity with a framework or an API, a misunderstanding of how a framework or API is intended to function, or, my biggest fear, unexplained behavior of a framework or API. I was recently plagued many hours on an issue at work that I feared fell into the latter category.
