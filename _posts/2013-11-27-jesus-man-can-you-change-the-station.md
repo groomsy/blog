@@ -1,0 +1,19 @@
+---
+layout: post
+title: Jesus, Man, Can you Change the Station?
+subtitle: I've had a... had a rough night, and I hate the fucking Eagles, man.
+comments: true
+tags: personal
+---
+
+![The Big Lebowski](/images/big-lebowski.jpg "The Big Lebowski")
+
+Don't you just hate it when you're fast asleep and something wakes you up? It's irritating. I also have a problem: I have a difficult time falling back to sleep once I've been awakened. Do you know what makes it particularly troublesome? When it's after midnight and you feel like you're at a god damn Eagles concert because your next door neighbor (separated by 6-8 feet) is listening to *Take It Easy* at maximum volume. And not just "10 - Max Volume". We're talking about, full-blown, *Spinal Tap*, "These go to eleven" maximum volume.
+
+Irritated yet? Have no fear. I hear the starting notes to *Witchy Woman*, but he hits the skip button to get to *Lyin' Eyes*. I'm miserable. The next song I remember hearing is *Desperado*, followed by *Tequila Sunrise*. After this, he either turns off the stereo or I black out from either anger or sleep deprivation; I'm not sure which.
+
+I spent my Saturday exhausted. I realize what you're probably saying: "You're in bed before midnight on a Friday night? Are you an old person?" Not really. Sure, I turn 28 in a few weeks, but I don't consider that to be too old. The issue is that I enjoy getting up early and contributing to society (even on weekends). In addition to that, Saturday was a pretty special day as it was our baby shower. Thankfully, my wife was unperturbed and did not wake through [Their Greatest Hits 1971-1975](https://itunes.apple.com/us/album/their-greatest-hits-1971-1975/id635829435). I enjoyed the party, but it was difficult to focus. Fortunately for me, my neighbor rarely has back-to-back performances.
+
+You might be asking why I didn't knock on his door or why I wouldn't just call him on the phone and ask him to turn it down (I do have his number, after all). Over a year ago, while he was practicing his drums at 11PM on a Wednesday night, I called the police to come give him a warning. I didn't file anything official. I simply asked that they stop by, warn him, and be on their way. My wife had just had shoulder surgery, was pretty miserable, and just wanted to sleep. To the police officers' credit, they did just that. When they arrived, the music was so loud (he also listens to music while he practices), they had to go around to the side of the house and yell through his open window for him to come to the front door as he could not hear their knocking over the music/drumming. After that, I felt pretty bad. I didn't even attempt to contact him before contacting the police. But it's not like I asked for a citation. Just a warning. After that incident, he gave me his phone number. My wife and I also decided that, as long as he's putting on his concerts before 10:30PM on weeknights or performing during the weekends, we wouldn't bother asking him to turn it down.
+
+For some odd reason, I tend to project my thoughts and emotions onto others without fully understanding how they actually feel or knowing what they are thinking. And, for whatever reason, I project onto my neighbor that listening to his music or playing drums is something that he genuinely enjoys doing in life. Something that gets him through the day. He has a physical labor job (unlike me, who sits at a computer all day and listens to all the music he damn well pleases), which is something with which I can't empathize. This sparked a thought in my mind: What am I working for? What am I doing in my free time that enables me to push forward through a difficult day at the office because I know that something fun awaits me?

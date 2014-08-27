@@ -1,0 +1,21 @@
+---
+layout: post
+title: Time Machine
+subtitle: Teddy told me that in greek, nostalgia literally means the pain from an old wound. It’s a twinge in your heart, far more powerful than memory alone. This device isn’t a spaceship, it’s a time machine. It goes backwards, forwards. Takes us to a place where we ache to go again. It’s not called the wheel, it’s called the Carousel. It lets us travel the way, a child travels. Round and round, and back home again, to a place where we know we are loved.
+comments: true
+tags: personal
+---
+
+![Mad Men](/images/mad-men.jpg "Mad Men")
+
+A few weeks ago, Ashley, Max, and I were visiting friends. As we left their house, their next-door neighbors were just arriving. They, like us, were also carrying a baby. The only difference was that they had two older kids as well. We made smalltalk, then politely loaded Max into our car and wished them well. As I crank the car, I watch as they crowd together with their dog on their porch for a family photograph. I can't help but notice everyone with a smile, waiting on the camera, as I put the car into reverse. Snap. The photograph is taken. The family is memorialized; they are forever frozen in time. Later that evening, I reflected on this event with a recurring thought: How many moments I've missed freezing in my life because of my and my family's lack of photography? Also: I feel like an asshole for not offering to take their picture so that the mother of the family could be in the photograph instead of behind the camera.
+
+My best friend since at least first grade (Hell, maybe even kindergarten) is getting married on Saturday. I wish him and his future bride nothing but the best. He asked me to be his best man, to which I happily agreed. I couldn't bring myself to do the traditional bachelor party thing (I'm married with a child now; I'll be damned if I end up in a strip joint) so I took him to Chicago to watch the White Sox play the Yankees. This may sound lame, but we grew up together watching the White Sox play on WGN. I also spent a fair share of time in our hometown as this was Max's first trip to my hometown and there were many family members who had yet to meet him.
+
+As I've gotten older, one thing has struck me whenever I visit my hometown of Mayfield, KY: How nostalgic I feel every time I visit. During my time there, I realized that the nostalgia I feel when I visit is not necessarily for the place, but it includes the people and time. Occasionally I long to go back to the friendships that I have outgrown, to the memories that are fading, to life before complication. Every time I visit, I see the debilitating work of time on the people and the places that I remember so fondly from my childhood. This is the crux of nostalgia: It is an old wound, an old memory; It is a lifetime ago, but feels as though it were just yesterday.
+
+If I'm being honest, Mayfield is kind of a shit hole. Compared to the places I've lived and have visited, I could never live there again. As sad as it makes me to think about it, there is nothing there for me other than the people and, through the hustle and bustle of life, they are fading. Part of me longs for those connections, for that warm feeling. The smarter part of me realizes that time has past and there is no getting back to it.
+
+I remember many of my classmates, especially in high school, were so keen to leave Mayfield. They always boasted how they would leave the one-horse town of Mayfield and make it big. Many were determined to move to the big city of Nashville (which, as much as I love living in Nashville, is ludicrous as it's not a very big city). For whatever reason, I figured I wouldn't live in Mayfield as an adult, but didn't really think in more detail than that. I never planned on living somewhere else, but just assumed that I would. After all, in a "city" who's largest employer is _Wal-Mart_, it is kind of difficult to find potential work in any computer related field, the only plan I actually had for myself in high school. Now, when I return to my old stomping grounds, I realize that I am one of the few to leave.
+
+I find it odd that I need to remind myself, when in Mayfield, that no matter how much I want to go back home, that home is gone. Mayfield is no longer my home. My home is Nashville.
