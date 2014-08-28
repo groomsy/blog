@@ -331,10 +331,10 @@ a:focus {
   background: #454441;
   border-radius: 15px;
   color: #ffffff;
-  float: right;
-  font-size: 60%;
-  margin: 15px 0px 0px 10px;
+  font-size: 10px;
+  font-weight: normal;
   padding: 3px 8px 3px 8px;
+  vertical-align: middle;
 }
 
 .post-title-link {
