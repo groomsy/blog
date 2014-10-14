@@ -15,7 +15,7 @@ My ten year high school reunion is scheduled for this Saturday. I am, begrudging
 > You are young and life is long and there is time to kill today
 >
 > And then one day you find ten years have got behind you
->
-> \- Lyrics from Pink Floyd's Time from Dark Side of the Moon
+
+<span style="margin-left: 25px; font-size: 85%;"><em>\- Lyrics from Pink Floyd's Time from Dark Side of the Moon</em></span>
 
 This
