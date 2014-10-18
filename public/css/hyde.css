@@ -382,6 +382,7 @@ a:focus {
 
 .album {
   float: right;
+  margin-left: 10px;
 }
 
 /* Related posts */

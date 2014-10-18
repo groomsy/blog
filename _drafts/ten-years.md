@@ -10,9 +10,9 @@ excerpt: <p>My ten year high school reunion is scheduled for this Saturday. I am
 <iframe src="https://widgets.itunes.apple.com/widget.html?c=us&brc=FFFFFF&blc=FFFFFF&trc=FFFFFF&tlc=FFFFFF&d=&t=&m=music&e=album&w=250&h=300&ids=700016575&wt=discovery&partnerId=&affiliate_id=&at=11lLcw&ct=" frameborder=0 style="overflow-x:hidden;overflow-y:hidden;width:250px;height: 300px;border:0px" class="album"></iframe>
 {%endraw%}
 
-My ten year high school reunion is scheduled for this Saturday. I am, begrudgingly, attending. Why begrudgingly you might ask? It's none of your stereotypical reasons. I wasn't bullied in high school. I was relatively well liked. This is before I started spending most of my time in front of a computer screen, so I was fairly social.
+My ten year high school reunion is scheduled for this Saturday. I am, begrudgingly, attending. Why begrudgingly? It's none of your stereotypical reasons. I wasn't bullied in high school. I was relatively well liked. This is before I started spending most of my time in front of a computer screen, so I was fairly social. I actually had a few close friends and was friendly with everyone. The question remains: why am I begrudgingly attending?
 
-At first, I thought my reluctance was rooted in my feeling of separation from my fellow graduates. Out of the approximately eighty students in my graduating class, I regularly talk with two to four of them. I recently deactivated my Facebook account, but even before then I rarely communicated with any of them. They were doing their thing and I was doing mine. Separation seemed inevitable. We had our own lives to live and I was busy living mine.
+At first, I thought my reluctance was rooted in my feeling of separation from my fellow graduates. Out of the approximately eighty students in my graduating class, I regularly talk with two to four of them. I recently deactivated my Facebook account, but even before then I rarely communicated with anyone else. They were doing their thing and I was doing mine. Separation seemed inevitable. We had our own lives to live and I was busy living mine.
 
 Earlier this week, while driving to work and listening to Pink Floyd's _Dark Side of the Moon_, I was hit with these lyrics:
 
