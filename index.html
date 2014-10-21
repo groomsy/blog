@@ -4,7 +4,7 @@ layout: default
 
 <div class="posts">
   {% for post in paginator.posts %}
-  <div class="post" style="margin-bottom: 0px;">
+  <div class="post" style="margin-bottom: 50px;">
   <div class="post-title-holder">
     <div class="post-title">
       <h1>
@@ -24,10 +24,7 @@ layout: default
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.excerpt }}
-  </div>
-  <div class="more" style="margin-bottom: 40px;">
-    <a href="{{ post.url }}">More</a>
+    {{ post.content }}
   </div>
   {% endfor %}
 </div>
