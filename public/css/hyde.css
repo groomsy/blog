@@ -410,6 +410,10 @@ a:focus {
   color: inherit;
 }
 
+/* Footnotes */
+.footnote {
+  box-shadow: none;
+}
 
 /*
  * Pagination
