@@ -8,8 +8,8 @@ layout: default
     {% for post in paginator.posts %}
       <div class="post">
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+          <h1>{{ post.title }}</h1>
           <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-          <h1 class="h2 post-title">{{ post.title }}</h1>
         </a>
         {% if post.tags %}
           <p class="post-content" style="font-size: 50%;">Tags:
