@@ -1,21 +1,21 @@
 # Site settings
-title:        Todd Grooms
-email:        todd.grooms@gmail.com
-author:       Todd Grooms
-description:  'Todd Grooms'
+title:              Todd Grooms
+email:              todd.grooms@gmail.com
+author:             Todd Grooms
+description:        'Todd Grooms'
 baseurl:
-url:          'http://groomsy.github.io'
+url:                'http://groomsy.github.io'
 
 # Google analytics
-google_analytics:
+google_analytics:   UA-43052308-1
 
 # Optional features
 animated:           false
 show_related_posts: false
-show_post_footers:  false
+show_post_footers:  true
 
 # Social icons
-show_social_icons: false
+show_social_icons:  false
 github_username:
 twitter_username:
 google_plus_id:
@@ -25,8 +25,8 @@ paypal_url:
 flattr_button:
 
 # Build settings
-markdown:     rdiscount
-permalink:    pretty
-paginate:     5
+markdown:           rdiscount
+permalink:          pretty
+paginate:           5
 sass:
-  compressed: true
+  compressed:       true
