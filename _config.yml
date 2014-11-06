@@ -1,12 +1,32 @@
-title:        Todd Grooms
-tagline:      'The homepage for Todd Grooms'
-description:  'This is the homepage of <a href="http://toddgrooms.com">Todd Grooms</a>.'
-url:          http://toddgrooms.com
-version:      0.0.2
-author:
-  name:       'Todd Grooms'
-  email:      'todd.grooms@gmail.com'
-markdown:     rdiscount
-permalink:    pretty
-highlighter:     true
-paginate:     5
+# Site settings
+title:              Todd Grooms
+email:              todd.grooms@gmail.com
+author:             Todd Grooms
+description:        'Todd Grooms'
+baseurl:
+url:                'http://groomsy.github.io'
+
+# Google analytics
+google_analytics:   UA-43052308-1
+
+# Optional features
+animated:           false
+show_related_posts: false
+show_post_footers:  true
+
+# Social icons
+show_social_icons:  false
+github_username:
+twitter_username:
+google_plus_id:
+linkedin_username:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Build settings
+markdown:           rdiscount
+permalink:          pretty
+paginate:           5
+sass:
+  compressed:       true
