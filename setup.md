@@ -21,6 +21,9 @@ Boot the machine and setup your account. Log into iCloud and setup _Find my Mac_
 
 ## Install Apple Software / Software from the Mac App Store
 
+### [Dropbox](https://www.dropbox.com)
+In addition to using Dropbox for easy cloud storage, I also use it to sync most of my settings / preferences between machines. It's usually one of the first things I install as it holds the "key" for me (see the next section).
+
 ### [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 This is a no-brainer. I spend the overwhelming majority of my development time working on iOS projects or piddling with Mac projects. A few things to remember when setting up Xcode:
 
@@ -32,15 +35,10 @@ This is a no-brainer. I spend the overwhelming majority of my development time w
 $ ln -s ~/Dropbox/Xcode/CodeSnippets CodeSnippets
 ``` 
 
-### [Gitbox](https://itunes.apple.com/us/app/gitbox/id403388357?mt=12)
-I can use Git on the command line, but I would prefer not to. This is my favorite, no-frills Git GUI client.
-
 ### [NoteAway](https://itunes.apple.com/us/app/noteaway-your-thoughts-in/id559541463?mt=12)
 A local Nashville developer wrote this software. It has quickly earned a spot in my menubar. The idea is dead simple: A notebook that sites in your menubar that is a keyboard shortcut away. Quickly paste in copied text or jot down ideas. I use it to track my line of thinking throughout my day so that I do not lose my place.
 
 ## Install Other Software / Tool Setup
-### [Dropbox](https://www.dropbox.com)
-In addition to using Dropbox for easy cloud storage, I also use it to sync most of my settings / preferences between machines. It's usually one of the first things I install as it holds the "key" for me (see the next section).
 
 ### [1Password](https://agilebits.com/onepassword)
 * Ensure 1Password is pointing to the vault being synced by Dropbox.
@@ -65,8 +63,11 @@ I was a big Quicksilver fan, but moved to this about 6 - 8 months ago. It's been
 $ export BUNDLER_EDITOR=bbedit
 ```
 
-### Git / Bitbucket / Github
+### Terminal
 * Install [Solarized Dark](https://github.com/tomislav/osx-terminal.app-colors-solarized) theme for Terminal.
+* Enable Option as Meta Key (Under Preferences > Profiles > Keyboard and tick "Use Option as Meta key) for [bash commands](http://cmd.club)
+
+### Git / Bitbucket / Github
 * Generate an SSH Key; Default save location/name, no password.
 
 ```
@@ -105,10 +106,13 @@ if [ -f ~/Dropbox/.git-completion.bash ]; then
 fi
 ```
 
-### Update Ruby; Install RVM
-* Run the following command in Terminal: `\curl -sSL https://get.rvm.io | bash -s stable`
-* Install the latest version of Ruby: `rvm install ruby`
-* Agree to allow Homebrew to be installed.
+* Setup [git aware prompt](https://github.com/jimeh/git-aware-prompt) for displaying your active git branch in the Terminal prompt
+
+### Update Ruby; Install RBEnv
+* Run the following command in Terminal: `brew install rbenv ruby-build`
+* Add `eval "$(rbenv init -)"` to your `.bash_profile`
+* List the currently available Ruby versions: `rbenv install -l`
+* Install the version of Ruby you want: `rbenv install VERSION`
 
 ### Cocoapods
 ```
