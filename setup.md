@@ -67,6 +67,21 @@ $ export BUNDLER_EDITOR=bbedit
 * Install [Solarized Dark](https://github.com/tomislav/osx-terminal.app-colors-solarized) theme for Terminal.
 * Enable Option as Meta Key (Under Preferences > Profiles > Keyboard and tick "Use Option as Meta key) for [bash commands](http://cmd.club)
 
+### Vim
+Install the latest version of Vim (the one shipping with Yosemite is outdated and it's nice to keep up-to-date):
+
+```
+$ brew install vim
+```
+
+Now you can enable a better backspace function, syntax highlighting, and Git commit spellcheck and body wrapping by adding the following to your `~/.vimrc` (create one if this file does not exist):
+
+```
+set backspace=2
+syntax on
+autocmd Filetype gitcommit setlocal spell textwidth=72
+```
+
 ### Git / Bitbucket / Github
 * Generate an SSH Key; Default save location/name, no password.
 
