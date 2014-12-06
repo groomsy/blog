@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Better Git/Vim Commit Messages
+date: 2014-12-05 15:00:00
 comments: true
 tags: development
 ---
