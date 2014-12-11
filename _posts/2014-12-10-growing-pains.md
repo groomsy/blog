@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Beginners
+title: Growing Pains
 date: 2014-12-10 22:15:00
 comments: true
 tags: personal
