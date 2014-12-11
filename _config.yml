@@ -30,3 +30,4 @@ permalink:          pretty
 paginate:           5
 sass:
   compressed:       true
+timezone:           America/Chicago
