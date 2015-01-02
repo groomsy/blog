@@ -1,0 +1,16 @@
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Wallpaper Spaces Changelog</title>
+    <link>http://toddgrooms.com/appcasts/wallpaper-spaces.xml</link>
+    <description>Most recent changes with links to updates for Wallpaper Spaces.</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.0</title>
+      <description>
+      	Initial release.
+      </description>
+      <pubDate>Mon, 5 Jan 2015 00:00:00 -0600</pubDate>
+      <enclosure url="http://toddgrooms.com/apps/WallpaperSpaces1.0.zip" sparkle:version="1.0" length="107758" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
