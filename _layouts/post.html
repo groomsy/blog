@@ -9,11 +9,17 @@ layout: default
 
 <div class="post-header mb2">
   <h1>{{ page.title }}</h1>
-  <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span><br>
+  <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
   {% if page.update_date %}
     <span class="post-meta">Updated: {{ page.update_date | date: "%b %-d, %Y" }}</span><br>
   {% endif %}
-  <span class="post-meta small">{{ minutes }} minute read</span>
+  {% if page.tags %}
+    <p class="post-content" style="font-size: 50%;">Tags:
+    {% for tag in page.tags %}
+  	  <span class="post-tag">{{ tag }}</span>
+    {% endfor %}
+    </p>
+  {% endif %}
 </div>
 
 <article class="post-content">
