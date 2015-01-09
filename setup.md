@@ -21,24 +21,34 @@ Boot the machine and setup your account. Log into iCloud and setup _Find my Mac_
 
 ## Install Apple Software / Software from the Mac App Store
 
-### [Dropbox](https://www.dropbox.com)
-In addition to using Dropbox for easy cloud storage, I also use it to sync most of my settings / preferences between machines. It's usually one of the first things I install as it holds the "key" for me (see the next section).
-
 ### [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 This is a no-brainer. I spend the overwhelming majority of my development time working on iOS projects or piddling with Mac projects. A few things to remember when setting up Xcode:
 
 * Login to your Apple developer account under `Preferences` > `Accounts`.
 * Enable line numbers for your editor by ticking the `Line numbers` option under `Preferences` > `Text Editing`.
-* Setup CodeSnippet sync through Dropbox by running the following command (assumes Xcode CodeSnippet directory lives in Dropbox):
+* Setup CodeSnippet sync through Dropbox (after installation) by running the following command (assumes Xcode CodeSnippet directory lives in Dropbox):
 
 ```
 $ ln -s ~/Dropbox/Xcode/CodeSnippets CodeSnippets
 ``` 
 
-### [NoteAway](https://itunes.apple.com/us/app/noteaway-your-thoughts-in/id559541463?mt=12)
-A local Nashville developer wrote this software. It has quickly earned a spot in my menubar. The idea is dead simple: A notebook that sites in your menubar that is a keyboard shortcut away. Quickly paste in copied text or jot down ideas. I use it to track my line of thinking throughout my day so that I do not lose my place.
+I also like to setup a few keyboard shortcuts for Xcode (and the iOS Simulator) in `System Preferences` > `Keyboard` > `Shortcuts` > `App Shortcuts`
+
+**Xcode** (Note: Add Xcode if it does not exist):
+
+* Menu Title: `Rename…`  
+Keyboard Shortcut: `^R`
+
+**iOS Simulator** (Note: [Add iOS Simulator if it does not exist](http://stackoverflow.com/a/8352242/349179)):
+
+* Menu Title: `Reset Content and Settings…`  
+Keyboard Shortcut: `^R`
+
 
 ## Install Other Software / Tool Setup
+
+### [Dropbox](https://www.dropbox.com)
+In addition to using Dropbox for easy cloud storage, I also use it to sync most of my settings / preferences between machines. It's usually one of the first things I install as it holds the "key" for me (see the next section).
 
 ### [1Password](https://agilebits.com/onepassword)
 * Ensure 1Password is pointing to the vault being synced by Dropbox.
@@ -62,6 +72,9 @@ I was a big Quicksilver fan, but moved to this about 6 - 8 months ago. It's been
 ```
 $ export BUNDLER_EDITOR=bbedit
 ```
+
+### [TextExpander](http://smilesoftware.com/TextExpander/index.html)
+I don't rely heavily on TextExpander, but there are a few snippets that I cannot live without. I even include some Xcode snippets in here because I don't find the Xcode Snippets feature reliable for certain snippets (such as pragma blocks). I also set this to sync via Dropbox so that my snippets are on each my computers.
 
 ### Terminal
 * Install [Solarized Dark](https://github.com/tomislav/osx-terminal.app-colors-solarized) theme for Terminal.
