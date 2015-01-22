@@ -28,9 +28,9 @@ This is a no-brainer. I spend the overwhelming majority of my development time w
 * Enable line numbers for your editor by ticking the `Line numbers` option under `Preferences` > `Text Editing`.
 * Setup CodeSnippet sync through Dropbox (after installation) by running the following command (assumes Xcode CodeSnippet directory lives in Dropbox):
 
-```
+{% highlight sh %}
 $ ln -s ~/Dropbox/Xcode/CodeSnippets CodeSnippets
-``` 
+{% endhighlight %}
 
 I also like to setup a few keyboard shortcuts for Xcode (and the iOS Simulator) in `System Preferences` > `Keyboard` > `Shortcuts` > `App Shortcuts`
 
@@ -69,9 +69,9 @@ I was a big Quicksilver fan, but moved to this about 6 - 8 months ago. It's been
 * BBEdit now supports syncing the items within Application Support over Dropbox! Just quit BBEdit and copy the `BBEdit` folder from `~/Library/Application\ Support` to `~/Dropbox/Application\ Support`. It should automatically pick up the copy in your Dropbox folder the next time you launch BBEdit.
 * Setup BBEdit as the default `BUNDLER_EDITOR`:
 
-```
+{% highlight sh %}
 $ export BUNDLER_EDITOR=bbedit
-```
+{% endhighlight %}
 
 ### [TextExpander](http://smilesoftware.com/TextExpander/index.html)
 I don't rely heavily on TextExpander, but there are a few snippets that I cannot live without. I even include some Xcode snippets in here because I don't find the Xcode Snippets feature reliable for certain snippets (such as pragma blocks). I also set this to sync via Dropbox so that my snippets are on each my computers.
@@ -83,56 +83,56 @@ I don't rely heavily on TextExpander, but there are a few snippets that I cannot
 ### Vim
 Install the latest version of Vim (the one shipping with Yosemite is outdated and it's nice to keep up-to-date):
 
-```
+{% highlight sh %}
 $ brew install vim
-```
+{% endhighlight %}
 
 Now you can enable a better backspace function, syntax highlighting, and Git commit spellcheck and body wrapping by adding the following to your `~/.vimrc` (create one if this file does not exist):
 
-```
+{% highlight sh linenos %}
 set backspace=2
 syntax on
 autocmd Filetype gitcommit setlocal spell textwidth=72
-```
+{% endhighlight %}
 
 ### Git / Bitbucket / Github
 * Generate an SSH Key; Default save location/name, no password.
 
-```
+{% highlight sh %}
 $ ssh-keygen
-```
+{% endhighlight %}
 
 * Add public SSH Key to Bitbucket and Github.
 * Set Git Username:
 
-```
+{% highlight sh %}
 $ git config --global user.name "FirstName LastName"`
-```
+{% endhighlight %}
 
 * Set Git Email:
 
-```
+{% highlight sh %}
 $ git config --global user.email "name@domain.com"`
-```
+{% endhighlight %}
 
 * Set BBEdit as default git difftool by adding the following to your `.gitconfig` (_Note: Must have BBEdit command line tools installed_):
 
-```
+{% highlight sh linenos %}
 [diff]
     tool = "bbdiff"
 [difftool]
     prompt = false
 [difftool "bbdiff"]
   cmd = bbdiff --wait --resume --ignore-spaces "$LOCAL" "$REMOTE"
-```
+{% endhighlight %}
 
 * Setup git autocomplete script (downloaded to Dropbox from `https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash`) by adding the following to your `.bash_profile`:
 
-```
+{% highlight sh linenos %}
 if [ -f ~/Dropbox/.git-completion.bash ]; then
   . ~/Dropbox/.git-completion.bash
 fi
-```
+{% endhighlight %}
 
 * Setup [git aware prompt](https://github.com/jimeh/git-aware-prompt) for displaying your active git branch in the Terminal prompt
 
@@ -143,8 +143,8 @@ fi
 * Install the version of Ruby you want: `rbenv install VERSION`
 
 ### Cocoapods
-```
+{% highlight sh %}
 $ gem install cocoapods
-```
+{% endhighlight %}
 
 There are other pieces of software that I install, but these are the most important and the ones that I cannot function without.
