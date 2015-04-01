@@ -14,7 +14,7 @@
 */
 
 body {
-  font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: 'Lato', 'Nunito', sans-serif;
 }
 
 html, body {
@@ -194,7 +194,6 @@ body {
   margin: 0;
   padding: .25em 0;
   color: #7a7a7a;
-  font-style: italic;
 }
 
 .pagination .button {
@@ -226,7 +225,7 @@ textarea.input {
 }
 
 p {
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
   color: #333;
 }
@@ -256,7 +255,7 @@ abbr {
 }
 
 pre, code {
-  font-family: Menlo, Monaco, "Courier New", monospace
+  font-family: Menlo, Monaco, 'Courier New', monospace
 }
 
 code {
@@ -302,7 +301,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 900;
   line-height: 1.2;
   margin: 0 0 0;
@@ -339,7 +338,7 @@ h6,
   .post-meta {
     margin: 0;
     padding: 0;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 
   .h1,
@@ -365,7 +364,7 @@ h6,
   .p,
   p,
   li {
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     line-height: 1.8;
   }
 

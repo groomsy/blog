@@ -1,5 +1,5 @@
 # Site settings
-title:              Todd Grooms
+title:              Todd Grooms.com
 email:              todd.grooms@gmail.com
 author:             Todd Grooms
 description:        'Todd Grooms'
@@ -15,9 +15,9 @@ show_related_posts: false
 show_post_footers:  true
 
 # Social icons
-show_social_icons:  false
-github_username:
-twitter_username:
+show_social_icons:  true
+github_username:    groomsy
+twitter_username:   toddgrooms
 google_plus_id:
 linkedin_username:
 bitcoin_url:
