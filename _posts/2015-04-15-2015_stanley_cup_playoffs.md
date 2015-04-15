@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2015 Stanley Cup Playoffs
-date: 2015-04-15 09:10:00
+date: 2015-04-15 09:10:00-5:00
 comments: true
 tags: personal
 ---
