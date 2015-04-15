@@ -48,6 +48,18 @@ body {
   -webkit-box-sizing: border-box;
 }
 
+td {
+	padding-right: 10px;
+}
+
+thead {
+	background-color: #eee;
+}
+
+th {
+	padding: .375em;
+}
+
 .gist,
 .gist .highlight .p {
   font-size: .75rem;

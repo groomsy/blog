@@ -12,11 +12,11 @@ Once the playoffs were set, I started thinking about how the predators do not ma
 
 ## Predators Regular Season Record Against Western Conference Playoff Teams
 
-<table>
+<table style="table-layout: fixed; width: 300px; margin-top: 1em;">
   <thead>
     <tr>
-      <th>Team</td>
-      <th>Record</td>
+      <th>Team</th>
+      <th>Record</th>
     </tr>
   </thead>
   <tr>
@@ -49,7 +49,9 @@ Once the playoffs were set, I started thinking about how the predators do not ma
   </tr>
 </table>
 
+<span style="font-size: .8em;">
 *The number in parenthesis denotes a shootout loss, which are special cases and in my opinion come down to chance.*
+</span>
 
 ## First Round
 
