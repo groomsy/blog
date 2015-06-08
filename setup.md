@@ -147,4 +147,52 @@ fi
 $ gem install cocoapods
 {% endhighlight %}
 
+### xctool
+[xctool](https://github.com/facebook/xctool) is a great cli for building Xcode projects developed by Facebook. Where the rubber meets the road for this tool is its ability to run a project's test target. You can run all of a project's tests, a single test class, or even specific test cases. It even spits out nicely formatted results and for you CI enthusiasts out there, it even supports outputting the results in a JUnit format so you can publish test results. You can install xctool through Homebrew.
+{% highlight sh %}
+$ brew install xctool
+{% endhighlight %}
+
+### karn
+I use my personal Macs for work and personal projects. This means I use Git for work and personal projects. For my work commits, I like for my work email to be tied to the commit. Likewise for my personal commits. I really dislike having to configure my Git options when cloning or starting a new project. Enter [karn](https://github.com/prydonius/karn). karn is a great little Go utility that helps manage Git user configuration for me. With a little setup, I now can freely commit without having to worry about which email is associated with which project.
+
+Install Go through Homebrew:
+{% highlight sh %}
+$ brew install go
+{% endhighlight %}
+
+Setup GOPATH variables in your `~/.bash_profile`:
+
+  export GOPATH=$HOME/Developer/go
+  export GOROOT=/usr/local/opt/go/libexec
+  export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+Then run:
+{% highlight sh %}
+$ go get github.com/prydonius/karn/cmd/karn
+{% endhighlight %}
+
+### PathPicker
+When I switched to using Git in Terminal about a year ago, I became fairly efficient at quickly typing file paths with help of the tab autocomplete shortcut. However, this is quite cumbersome and not very fast. You can also highlight file paths with your mouse and copy and paste them like an animal, but this goes against my desire to keep my hands off of my mouse. Enter [PatchPicker](https://github.com/facebook/PathPicker). PathPicker allows you to pipe commands through the utility so that you can arrow and select files.
+
+Install PathPicker:
+{% highlight sh %}
+$ brew install fpp
+{% endhighlight %}
+  
+Then to select files to stage for a commit:
+{% highlight sh %}
+$ git status | fpp
+{% endhighlight %}
+  
+To keep it more shorthand and faster to type, you can use a [Git alias for the status command](http://stackoverflow.com/a/28824653/349179):
+{% highlight sh %}
+$ git config --global alias.st status
+{% endhighlight %}
+  
+Now we can bring up files to stage for a commit with this:
+{% highlight sh %}
+$ git st | fpp
+{% endhighlight %}
+
 There are other pieces of software that I install, but these are the most important and the ones that I cannot function without.
