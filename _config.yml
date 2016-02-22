@@ -25,7 +25,6 @@ paypal_url:
 flattr_button:
 
 # Build settings
-markdown:           rdiscount
 permalink:          pretty
 paginate:           5
 sass:
