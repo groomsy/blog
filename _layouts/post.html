@@ -15,6 +15,7 @@ layout: default
   {% if page.link %}
     </a>
   {% endif %}
+  <p class="post-meta">{{ page.subtitle }}</p>
   <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
   {% if page.update_date %}
     <span class="post-meta">Updated: {{ page.update_date | date: "%b %-d, %Y" }}</span><br>
