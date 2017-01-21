@@ -199,12 +199,23 @@ th {
 }
 
 .meta,
-.post-meta {
+.post-meta,
+.post-meta-date,
+.post-meta-subtitle {
   width: auto;
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 300;
   margin: 0;
   padding: .25em 0;
+  color: #8b8b8b;
+}
+
+.post-meta-subtitle {
+  font-style: italic;
+}
+
+.post-meta-date {
+  font-size: 1rem;
   color: #7a7a7a;
 }
 
