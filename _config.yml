@@ -6,9 +6,6 @@ description:        'Todd Grooms'
 baseurl:
 url:                'http://groomsy.github.io'
 
-# Google analytics
-google_analytics:   UA-43052308-1
-
 # Optional features
 animated:           false
 show_related_posts: false
