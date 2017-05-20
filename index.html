@@ -8,7 +8,7 @@ layout: default
     {% for post in paginator.posts %}
       <div class="post">
         <div class="post-header mb2">
-          {% if post.title %}
+          {% if post.categories[0] == null %}
             {% if post.link %}
               <a href="{{ post.link }}" class="post-link">
             {% else %}
@@ -24,7 +24,7 @@ layout: default
           {% endif %}
           <p class="post-meta-subtitle">{{ post.subtitle }}</p>
           <p class="ppost-meta-date">{{ post.date | date: "%b %-d, %Y" }}</p>
-          {% if post.tags %}
+          {% if post.tags[0] != null %}
             <p class="post-content" style="font-size: 50%;">Tags:
             {% for tag in post.tags %}
               <span class="post-tag">{{ tag }}</span>
