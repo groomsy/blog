@@ -21,9 +21,13 @@ layout: default
               permalink
             </a>
             {% endif %}
+            <p class="post-meta-subtitle">{{ post.subtitle }}</p>
+            <p class="ppost-meta-date">{{ post.date | date: "%b %-d, %Y" }}</p>
+          {% else %}
+            <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+            <h1>&#x1F4AC; {{ post.date | date: "%b %-d, %Y %r" }}</h1>
+            </a>
           {% endif %}
-          <p class="post-meta-subtitle">{{ post.subtitle }}</p>
-          <p class="ppost-meta-date">{{ post.date | date: "%b %-d, %Y" }}</p>
           {% if post.tags[0] != null %}
             <p class="post-content" style="font-size: 50%;">Tags:
             {% for tag in post.tags %}

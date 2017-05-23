@@ -8,7 +8,7 @@ layout: default
 {% endif %}
 
 <div class="post-header mb2">
-  {% if post.categories[0] == null %}
+  {% if page.categories[0] == null %}
 	  {% if page.link %}
     	<a href="{{ page.link }}" class="post-link">
 	  {% endif %}
@@ -16,12 +16,16 @@ layout: default
 	  {% if page.link %}
 	    </a>
 	  {% endif %}
+  {% else %}
+    <h1>&#x1F4AC;</h1>
   {% endif %}
   
   {% if page.subtitle %}
 	  <p class="post-meta-subtitle">{{ page.subtitle }}</p>
   {% endif %}
-  <p class="post-meta-date">{{ page.date | date: "%b %-d, %Y" }}</p>
+  {% if page.categories[0] == null %}
+    <p class="post-meta-date">{{ page.date | date: "%b %-d, %Y" }}</p>
+  {% endif %}
   {% if page.update_date %}
     <span class="post-meta">Updated: {{ page.update_date | date: "%b %-d, %Y" }}</span><br>
   {% endif %}
@@ -37,6 +41,12 @@ layout: default
 <article class="post-content">
   {{ content }}
 </article>
+
+<div>
+  {% if page.categories[0] != null %}
+    <p class="post-meta-date">{{ page.date | date: "%b %-d, %Y" }}</p>
+  {% endif %}
+</div>
 
 {% if site.show_post_footers %}
   {% include post_footer.html %}
