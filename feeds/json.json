@@ -6,7 +6,7 @@ layout: null
   "version"       : "https://jsonfeed.org/version/1",
   "title"         : "Todd Grooms",
   "home_page_url" : "http://toddgrooms.com",
-  "feed_url"      : "http://toddgrooms.com/feeds/json",
+  "feed_url"      : "http://toddgrooms.com/feeds/json.json",
   "author"        : {
       "url"   : "http://toddgrooms.com",
       "name"  : "Todd Grooms"
