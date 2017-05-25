@@ -16,25 +16,25 @@ layout: default
 	  {% if page.link %}
 	    </a>
 	  {% endif %}
+    {% if page.subtitle %}
+      <p class="post-meta-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+    {% if page.tags[0] != null %}
+      <p class="post-content" style="font-size: 50%;">Tags:
+      {% for tag in page.tags %}
+        <span class="post-tag">{{ tag }}</span>
+      {% endfor %}
+      </p>
+    {% endif %}
   {% else %}
     <h1>&#x1F4AC;</h1>
   {% endif %}
   
-  {% if page.subtitle %}
-	  <p class="post-meta-subtitle">{{ page.subtitle }}</p>
-  {% endif %}
   {% if page.categories[0] == null %}
     <p class="post-meta-date">{{ page.date | date: "%b %-d, %Y" }}</p>
   {% endif %}
   {% if page.update_date %}
     <span class="post-meta">Updated: {{ page.update_date | date: "%b %-d, %Y" }}</span><br>
-  {% endif %}
-  {% if page.tags[0] != null %}
-    <p class="post-content" style="font-size: 50%;">Tags:
-    {% for tag in page.tags %}
-  	  <span class="post-tag">{{ tag }}</span>
-    {% endfor %}
-    </p>
   {% endif %}
 </div>
 
