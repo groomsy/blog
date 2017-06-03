@@ -212,11 +212,16 @@ th {
 
 .post-meta-subtitle {
   font-style: italic;
+  padding: 0;
 }
 
 .post-meta-date {
   font-size: 1rem;
   color: #7a7a7a;
+}
+
+.post-meta-image {
+  padding: .5em 0;
 }
 
 .pagination .button {

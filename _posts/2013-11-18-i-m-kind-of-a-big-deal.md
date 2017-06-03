@@ -2,11 +2,11 @@
 layout: post
 title: I'm Kind of a Big Deal
 subtitle: I'm very important. I have many leather-bound books and my apartment smells of rich mahogany.
+img: /images/anchorman.jpg
+alt: "Anchorman: The Legend of Ron Burgundy"
 comments: true
 tags: development
 ---
-
-![Anchorman: The Legend of Ron Burgundy](/images/anchorman.jpg "Anchorman: The Legend of Ron Burgundy")
 
 Saturday was kind of a special day (as far as software development goes). I opened a pull request for [Shenzhen](https://github.com/nomad/shenzhen). Shenzhen is a gem for building .ipa files from iOS projects (it even has support for distributing files to TestFlight, HockeyApp, FTP, and S3). While testing the gem, I noticed a few problems with building schemes in workspaces. I cloned the project to my local machine, played around with the source, until I fixed the issue. It was a small fix, but I had a few concerns.
 
