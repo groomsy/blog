@@ -14,15 +14,20 @@ layout: default
             {% else %}
               <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
             {% endif %}
-            <h1>{{ post.title }}</h1>
-            </a>
+                <h1>{{ post.title }}</h1>
+              </a>
             {% if post.link %}
-            <a href="{{ post.url | prepend: site.baseurl }}" class="post-permalink">
-              permalink
-            </a>
+              <a href="{{ post.url | prepend: site.baseurl }}" class="post-permalink">
+                permalink
+              </a>
             {% endif %}
-            <p class="post-meta-subtitle">{{ post.subtitle }}</p>
-            <p class="ppost-meta-date">{{ post.date | date: "%b %-d, %Y" }}</p>
+			{% if post.subtitle %}
+			  <p class="post-meta-subtitle">{{ post.subtitle }}</p>
+			{% endif %}
+			{% if post.img %}
+			  <img src="{{ post.img }}" alt="{{ post.alt }}" title="{{ post.alt }}" class="post-meta-image">
+			{% endif %}
+            <p class="post-meta-date">{{ post.date | date: "%b %-d, %Y" }}</p>
             {% if post.tags[0] != null %}
               <p class="post-content" style="font-size: 50%;">Tags:
               {% for tag in post.tags %}
