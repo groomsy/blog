@@ -25,7 +25,7 @@ layout: default
 			  <p class="post-meta-subtitle">{{ post.subtitle }}</p>
 			{% endif %}
 			{% if post.img %}
-			  <img src="{{ post.img }}" alt="{{ post.alt }}" title="{{ post.alt }}" class="post-meta-image">
+			  <img src="{{ post.img }}" alt="{{ post.alt }}" title="{{ post.alt }}" class="post-meta-image"/>
 			{% endif %}
             <p class="post-meta-date">{{ post.date | date: "%b %-d, %Y" }}</p>
             {% if post.tags[0] != null %}
