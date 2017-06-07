@@ -13,17 +13,16 @@ layout: null
   },
   "items" : [ {% for post in site.posts %}
     {
-      "title"						: "{{ post.title }}", {% if post.subtitle %}
-      "summary"         : "{{ post.subtitle }}",
-      {% endif %}
-      "date_published"	: "{{ post.date | date_to_xmlschema }}",
-      "id"							: "{{ post.url | absolute_url }}",
-      "url"							: "{{ post.url | absolute_url }}", {% if post.link %}
-      "external_url"    : "{{ post.link }}",
-      {% endif %}
-      "author"					: "Todd Grooms",
-      "tags"						: {{ post.tags | jsonify }},
-      "content_html"		: {{ post.content | jsonify }}
+      "title"           : "{{ post.title }}", {% if post.subtitle %}
+      "summary"         : "{{ post.subtitle }}", {% endif %}
+      "date_published"  : "{{ post.date | date_to_xmlschema }}",
+      "id"              : "{{ post.url | absolute_url }}",
+      "url"             : "{{ post.url | absolute_url }}", {% if post.link %}
+      "external_url"    : "{{ post.link }}", {% endif %}
+      "author"          : "Todd Grooms",
+      "tags"            : {{ post.tags | jsonify }}, {% if post.img %}
+      "image"           : {{ post.img | absolute_url | jsonify }}, {% endif %}
+      "content_html"    : {% if post.img %}{% capture content_img %}<p><img src="{{ post.img | absoulte_url }}" alt="{{ post.alt }}" title="{{ post.alt }}"/></p>{% endcapture %}{% assign content = post.content %}{% assign body = content_img | append: content %}{{ body | jsonify }}{% else %}{{ post.content | jsonify }}{% endif %}
     }{% if forloop.last %}{% else %},{% endif %} {% endfor %}
   ]
 } 
