@@ -3,7 +3,7 @@ layout: post
 title: That's a Hell of an Old Hound Dog You Got There
 subtitle: What's he go by?
 img: /images/royal-hound.jpg
-alt: "The Royal Tenenbaums"
+alt: The Royal Tenenbaums
 date: 2017-01-24 17:30:00
 comments: false
 tags: personal

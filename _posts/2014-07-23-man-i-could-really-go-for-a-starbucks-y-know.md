@@ -2,11 +2,11 @@
 layout: post
 title: Man, I Could Really Go for a Starbucks, Y'know?
 subtitle: I don't really think we have time for a handjob, Joe.
+img: /images/idiocracy.jpg
+alt: Idiocracy
 comments: true
 tags: personal
 ---
-
-![Idiocracy](/images/idiocracy.jpg "Idiocracy")
 
 The older I get, the more sure I become that humanity is devolving. I can only assume that Idiocracy is actually a "futurementary": a documentary to warn humanity about the dangers of what lies ahead if we continue on our current trajectory.
 

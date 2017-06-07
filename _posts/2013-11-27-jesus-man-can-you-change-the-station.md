@@ -2,11 +2,11 @@
 layout: post
 title: Jesus, Man, Can you Change the Station?
 subtitle: I've had a... had a rough night, and I hate the fucking Eagles, man.
+img: /images/big-lebowski.jpg
+alt: The Big Lebowski
 comments: true
 tags: personal
 ---
-
-![The Big Lebowski](/images/big-lebowski.jpg "The Big Lebowski")
 
 Don't you just hate it when you're fast asleep and something wakes you up? It's irritating. I also have a problem: I have a difficult time falling back to sleep once I've been awakened. Do you know what makes it particularly troublesome? When it's after midnight and you feel like you're at a god damn Eagles concert because your next door neighbor (separated by 6-8 feet) is listening to *Take It Easy* at maximum volume. And not just "10 - Max Volume". We're talking about, full-blown, *Spinal Tap*, "These go to eleven" maximum volume.
 

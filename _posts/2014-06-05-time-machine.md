@@ -2,11 +2,11 @@
 layout: post
 title: Time Machine
 subtitle: Teddy told me that in greek, nostalgia literally means the pain from an old wound. It’s a twinge in your heart, far more powerful than memory alone. This device isn’t a spaceship, it’s a time machine. It goes backwards, forwards. Takes us to a place where we ache to go again. It’s not called the wheel, it’s called the Carousel. It lets us travel the way, a child travels. Round and round, and back home again, to a place where we know we are loved.
+img: /images/mad-men.jpg
+alt: Mad Men
 comments: true
 tags: personal
 ---
-
-![Mad Men](/images/mad-men.jpg "Mad Men")
 
 A few weeks ago, Ashley, Max, and I were visiting friends. As we left their house, their next-door neighbors were just arriving. They, like us, were also carrying a baby. The only difference was that they had two older kids as well. We made smalltalk, then politely loaded Max into our car and wished them well. As I crank the car, I watch as they crowd together with their dog on their porch for a family photograph. I can't help but notice everyone with a smile, waiting on the camera, as I put the car into reverse. Snap. The photograph is taken. The family is memorialized; they are forever frozen in time. Later that evening, I reflected on this event with a recurring thought: How many moments I've missed freezing in my life because of my and my family's lack of photography? Also: I feel like an asshole for not offering to take their picture so that the mother of the family could be in the photograph instead of behind the camera.
 

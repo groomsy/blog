@@ -2,11 +2,11 @@
 layout: post
 title: True Love is Hard to Find
 subtitle: Sometimes you think you have true love and then you catch the early flight home from San Diego and a couple of nude people jump out of your bathroom blindfolded like a goddamn magic show ready to double team your girlfriend...
+img: /images/old-school.jpg
+alt: Old School
 comments: true
 tags: personal
 ---
-
-![Old School](/images/old-school.jpg "Old School")
 
 I was recently asked by a truly great friend of mine to be his best man. I instantly accepted. After reminiscing and thinking for a few days, this is the speech I wrote. Congratulations Evan and Leah. I love you guys.
 
