@@ -3,7 +3,7 @@ layout: post
 title: I'm Kind of a Big Deal
 subtitle: I'm very important. I have many leather-bound books and my apartment smells of rich mahogany.
 img: /images/anchorman.jpg
-alt: Anchorman: The Legend of Ron Burgundy
+alt: "Anchorman: The Legend of Ron Burgundy"
 comments: true
 tags: development
 ---
