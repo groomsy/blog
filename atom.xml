@@ -21,7 +21,8 @@ layout: null
    <link href="{{ site.url }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <content type="html">{% if post.img %}{% capture content_img %}<p><img src="{{ post.img | absoulte_url }}" alt="{{ post.alt }}" title="{{ post.alt }}"/></p>{% endcapture %}{% assign content = post.content %}{% assign body = content_img | append: content %}{{ body | xml_escape }}{% else %}{{ post.content | xml_escape }}{% endif %}</content>
+   {% if post.subtitle %}<summary>{{ post.subtitle }}</summary>{% endif %}
  </entry>
  {% endfor %}
 

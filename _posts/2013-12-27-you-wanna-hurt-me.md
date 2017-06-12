@@ -2,11 +2,11 @@
 layout: post
 title: You Wanna Hurt Me?
 subtitle: Go right ahead if it makes you feel any better. I'm an easy target.
+img: /images/planes-trains-automobiles.jpg
+alt: Planes, Trains and Automobiles
 comments: true
 tags: development
 ---
-
-![Planes, Trains and Automobiles](/images/planes-trains-automobiles.jpg "Planes, Trains and Automobiles")
 
 In the movie *Planes, Trains and Automobiles* (Oxford comma be damned), Neal blames his ruined trip home on Del. Is Del trying to ruin Neal's trip? No. Del is just being himself. He's loud. He's boisterous. He's doing what he believes is right. He's not out to ruin Neal. But Neal, being the cynic that he is, feels that Del is just a buffoon with intentions of malice. I've run into a few Dels during projects. And I've unfortunately became Neal in many of these situations. It's not something that I'm proud of, but something that I'm working toward improving.
 

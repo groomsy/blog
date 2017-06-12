@@ -2,11 +2,11 @@
 layout: post
 title: He has his Reasons
 subtitle: Oh, I know that, but you can't raise boys to be scared of life. You gotta brew some recklessness into them.
+img: /images/royal-tenenbaums.jpg
+alt: The Royal Tenenbaums
 comments: true
 tags: personal
 ---
-
-![The Royal Tenenbaums](/images/royal-tenenbaums.jpg "The Royal Tenenbaums")
 
 _Note: This started as a draft on Father's Day and was finished the following day._ 
 

@@ -2,11 +2,11 @@
 layout: post
 title: Wendy, Let me Explain Something to You
 subtitle: Whenever you come in here and interrupt me, you're breaking my concentration. You're distracting me. And it will then take me time to get back to where I was. You understand?
+img: /images/shining.jpg
+alt: The Shining
 comments: true
 tags: development
 ---
-
-![The Shining](/images/shining.jpg "The Shining")
 
 My stepfather was an auto body man. He claims that he found his passion during his high school auto body class. After graduating high school, he spent most of his working life beating the dents out of cars. He spent most of his time working for car dealerships. Car dealerships would routinely purchase wrecked cars and hire auto body men to fix the vehicles so that they could in-turn sell the car for a profit. The dealerships would sometimes be able to make a profit of a few thousand per car.
 

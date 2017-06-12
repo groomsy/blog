@@ -9,15 +9,22 @@ layout: default
 
 <div class="post-header mb2">
   {% if page.categories[0] == null %}
-	  {% if page.link %}
-    	<a href="{{ page.link }}" class="post-link">
-	  {% endif %}
-	  <h1>{{ page.title }}</h1>
-	  {% if page.link %}
-	    </a>
-	  {% endif %}
+    {% if page.link %}
+      <a href="{{ page.link }}" class="post-link">
+    {% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.link %}
+      </a>
+    {% endif %}
     {% if page.subtitle %}
       <p class="post-meta-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+    {% if page.img %}
+      <img src="{{ page.img }}" alt="{{ page.alt }}" title="{{ page.alt }}" class="post-meta-image"/>
+    {% endif %}
+    <p class="post-meta-date">{{ page.date | date: "%b %-d, %Y" }}</p>
+    {% if page.update_date %}
+      <span class="post-meta">Updated: {{ page.update_date | date: "%b %-d, %Y" }}</span><br>
     {% endif %}
     {% if page.tags[0] != null %}
       <p class="post-content" style="font-size: 50%;">Tags:
@@ -28,13 +35,6 @@ layout: default
     {% endif %}
   {% else %}
     <h1>&#x1F4AC;</h1>
-  {% endif %}
-  
-  {% if page.categories[0] == null %}
-    <p class="post-meta-date">{{ page.date | date: "%b %-d, %Y" }}</p>
-  {% endif %}
-  {% if page.update_date %}
-    <span class="post-meta">Updated: {{ page.update_date | date: "%b %-d, %Y" }}</span><br>
   {% endif %}
 </div>
 

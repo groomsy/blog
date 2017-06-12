@@ -119,9 +119,9 @@ $ git config --global user.email "name@domain.com"`
 
 {% highlight sh linenos %}
 [diff]
-    tool = "bbdiff"
+  tool = "bbdiff"
 [difftool]
-    prompt = false
+  prompt = false
 [difftool "bbdiff"]
   cmd = bbdiff --wait --resume --ignore-spaces "$LOCAL" "$REMOTE"
 {% endhighlight %}
