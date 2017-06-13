@@ -215,6 +215,17 @@ th {
   padding: 0;
 }
 
+.post-micro-bullet {
+  float: right;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.post-micro-dateline {
+  text-align: right;
+}
+
 .post-meta-date {
   font-size: 1rem;
   color: #7a7a7a;

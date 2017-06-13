@@ -33,8 +33,6 @@ layout: default
       {% endfor %}
       </p>
     {% endif %}
-  {% else %}
-    <h1>&#x1F4AC;</h1>
   {% endif %}
 </div>
 
@@ -44,7 +42,9 @@ layout: default
 
 <div>
   {% if page.categories[0] != null %}
-    <p class="post-meta-date">{{ page.date | date: "%b %-d, %Y" }}</p>
+    <div class="post-micro-dateline">
+      <span class="post-meta-date">{{ page.date | date: "%b %-d, %Y %r" }}</span>
+    </div>
   {% endif %}
 </div>
 
