@@ -1,5 +1,6 @@
 ---
 layout: post
+title: null
 date: 2017-05-19 09:30:00
 categories: ['micro']
 tags: ['micro']
