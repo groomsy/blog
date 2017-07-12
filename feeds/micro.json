@@ -13,8 +13,6 @@ layout: null
   },
   "items" : [ {% for post in site.categories.micro %}
     {
-      "title"           : "{{ post.title }}", {% if post.subtitle %}
-      "summary"         : "{{ post.subtitle }}", {% endif %}
       "date_published"  : "{{ post.date | date_to_xmlschema }}",
       "id"              : "{{ post.url | absolute_url }}",
       "url"             : "{{ post.url | absolute_url }}", {% if post.link %}

@@ -12,8 +12,8 @@ layout: null
       "name"  : "Todd Grooms"
   },
   "items" : [ {% for post in site.posts %}
-    {
-      "title"           : "{{ post.title }}", {% if post.subtitle %}
+    { {% if post.categories[0] == null %}
+      "title"           : "{{ post.title }}",{% endif %}{% if post.subtitle %}
       "summary"         : "{{ post.subtitle }}", {% endif %}
       "date_published"  : "{{ post.date | date_to_xmlschema }}",
       "id"              : "{{ post.url | absolute_url }}",
