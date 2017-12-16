@@ -6,7 +6,7 @@ tags:   personal
 link:   https://en.wikipedia.org/wiki/Fleur-de-lis
 ---
 
-While attending school in Louisville, I observed many fleurs-dis-lis (⚜️) throughout the city.  I had seen the symbol before (most notably used by the New Orleans Saints), but I had no idea what it meant. As part of my series of bus commute research series, I decided to take a look and see
+While attending school in Louisville, I observed many fleurs-dis-lis (⚜️) throughout the city.  I had seen the symbol before (most notably used by the New Orleans Saints), but I had no idea what it meant. As part of my bus commute research series, I decided to take a look and see
 
 a) what the fleur-de-lis symbolizes  
 b) why it is associated with Louisville
