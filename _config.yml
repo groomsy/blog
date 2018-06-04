@@ -1,10 +1,10 @@
 # Site settings
-title:              Todd Grooms
+title:              Todd Grooms Weblog
 email:              todd.grooms@gmail.com
 author:             Todd Grooms
-description:        'Todd Grooms'
+description:        'Cage free, organic, all natural weblog.'
 baseurl:
-url:                'http://groomsy.github.io'
+url:                'http://toddgrooms.com'
 
 # Optional features
 animated:           false
@@ -26,4 +26,4 @@ permalink:          pretty
 paginate:           5
 sass:
   compressed:       true
-timezone:           'America/Chicago'
+timezone:           'America/Los_Angeles'
