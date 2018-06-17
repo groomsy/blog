@@ -47,5 +47,3 @@ fields:
   name: tags
   description: Tag for post.
   default: personal
-pages:
-- _posts/test.md
