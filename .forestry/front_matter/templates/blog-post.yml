@@ -33,7 +33,7 @@ fields:
   description: The date for the post
   config:
     date_format: YYYY-MM-DD
-    time_format: hh:mm:ss -Z
+    time_format: hh:mm:ss ZZ
     required: true
 - type: select
   config:
