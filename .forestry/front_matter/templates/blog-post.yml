@@ -1,4 +1,5 @@
 ---
+label: Blog Post
 hide_body: false
 is_partial: false
 fields:
@@ -48,4 +49,5 @@ fields:
   description: Tag for post.
   default: personal
 pages:
+- _posts/surly-long-haul-trucker.md
 - _posts/2018-06-17-vamos-mexico.md
