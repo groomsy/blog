@@ -2,7 +2,7 @@
 title: Surly Long Haul Trucker
 layout: post
 tags: personal
-date: 2018-11-15 07:25
+date: 2018-11-16 09:35:00 -0600
 subtitle: I bought a bicycle
 img: https://s3-us-west-2.amazonaws.com/groomsy-debug/site/Surly-LHT.jpg
 alt: Surly LHT
