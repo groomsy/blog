@@ -24,6 +24,7 @@ fields:
   name: img
   label: Image
   description: Hero image for the post.
+  default: https://s3-us-west-2.amazonaws.com/groomsy-debug/site/
 - type: text
   name: alt
   label: Alt for Image
