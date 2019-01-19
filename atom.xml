@@ -3,27 +3,6 @@ layout: null
 ---
 
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
- <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
- </author>
-
- {% for post in site.posts %}
- <entry>{% if post.categories[0] == null %}
-   <title>{{ post.title }}</title>{% endif %}
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{% if post.img %}{% capture content_img %}<p><img src="{{ post.img | absoulte_url }}" alt="{{ post.alt }}" title="{{ post.alt }}"/></p>{% endcapture %}{% assign content = post.content %}{% assign body = content_img | append: content %}{{ body | xml_escape }}{% else %}{{ post.content | xml_escape }}{% endif %}</content>
-   {% if post.subtitle %}<summary>{{ post.subtitle }}</summary>{% endif %}
- </entry>
- {% endfor %}
-
-</feed>
+<redirect>
+  <newLocation>{{ site.url }}/feeds/atom.xml</newLocation>
+</redirect>
