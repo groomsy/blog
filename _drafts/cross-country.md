@@ -5,7 +5,7 @@ tags: personal
 title: Cross Country
 subtitle: For which there are outcomes that you are not prepared
 alt: ''
-date: 2019-02-23 00:00:00 -0600
+date: 2019-02-22 23:40:00 -0600
 
 ---
 After three years in California, we moved back to Nashville, Tennessee. This was not a choice taken lightly. We never fully acclimated to California. We never felt "at home" there. We missed our friends. We missed our families. Surprisingly, I missed Nashville. When we made the choice to relocate, I did not appreciate how much Nashville had grown on us. I did not appreciate how much Nashville felt like "home".
