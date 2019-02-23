@@ -20,4 +20,12 @@ It's easy, at this point, to suggest that I knew something was wrong when my pho
 
 The helplessness I felt at that moment was devastating. It felt like I had taken an unexpected punch to the stomach. I quietly explained what had happened to Ashley. I was scared to tell Max. I tried to remain as optimistic as possible. I wanted to get to Nashville as quickly as possible. I wanted to search and drive around; to call all shelters. He was chipped, surely there was something we could do. Except there wasn't. Microchips are only useful if the animal is found. They are not much help if the animal is on the lam.
 
-We arrived a few days later in Nashville. After the boarders brought our one remaining dog to us, we drove to the neighborhood Porter was last seen. Looking around at the suburb and seeing the vast farmland just beyond those houses, the hopelessness became deeper. We called around. Ashley started following lost and found pet sites and Facebook groups dedicated to reporting seen dogs. She still checks these sites every day. When I see her checking these sites on her phone, it just reopens the wound.
+We arrived a few days later in Nashville. After the boarders brought our one remaining dog to us, we drove to the neighborhood Porter was last seen. Looking around at the suburb and seeing the vast farmland just beyond those houses, the hopelessness became deeper. We called around. Ashley started following lost and found pet sites and Facebook groups dedicated to reporting seen dogs. She still checks these sites every day. When I see her checking these sites on her phone, it just reopens the wound. I can't ask her to stop though; I still hold out hope for a miracle even though it seems improbable.
+
+It's been hard on us. It's been hard on Max. If the topic of our pets comes up in conversation (which it does, frequently, with other families), Max happily explains that we have two dogs: Millie and Porter. The latter is followed up with an explanation about how he is lost. Occasionally he tells us that a park ranger or farmer is going to find Porter and bring him back to us. I hope he's right, but I don't have the heart to tell him he might not be.
+
+***
+
+After much deliberation, we visited the [Nashville Humane Association](http://nashvillehumane.org) last week. We had narrowed down our selection and ended up adopting another Beagle. Her name is Brie. Max was adamant that we could not adopt more than one. More than three would be too many dogs. He seems to have really taken an interest in Brie and the interest seems mutual.
+
+I still hope that we get a call. Every time my phone rings, I look at the caller ID. If it's a local number, I get hopeful. The automated voice on the other end devastates me again.
