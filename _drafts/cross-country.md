@@ -28,4 +28,4 @@ It's been hard on us. It's been hard on Max. If the topic of our pets comes up i
 
 After much deliberation, we visited the [Nashville Humane Association](http://nashvillehumane.org) last week. We had narrowed down our selection and ended up adopting another Beagle. Her name is Brie. Max was adamant that we could not adopt more than one. More than three would be too many dogs. He seems to have really taken an interest in Brie and the interest seems mutual.
 
-I still hope that we get a call. Every time my phone rings, I look at the caller ID. If it's a local number, I get hopeful. The automated voice on the other end devastates me again.
+I still hope we get that call. Every time my phone rings, I look at the caller ID. If it's a local number, I get hopeful; the automated voice on the other end devastates me every time. Part of me will always hope that we get that call. The worst part is not knowing a definitive. He could be out, enjoying ultimate freedom (which is what Ashley and I like to believe). I just want to know he's okay.
