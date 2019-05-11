@@ -6,8 +6,8 @@ date: 2018-11-16 09:35:00 -0600
 subtitle: I bought a bicycle
 img: https://s3-us-west-2.amazonaws.com/groomsy-debug/site/Surly-LHT.jpg
 alt: Surly LHT
-
 ---
+
 I have not owned a bicycle since my first year in middle school. Sure, I have ridden on bicycles during that time. Yes, Ashley has a bicycle that I have occasionally taken for a spin in the past. However, I have not had a personal bicycle since then. To be honest, I am not even sure what happened to the bicycle. I remember having one and, suddenly, do not remember having one. I believe my last bicycle was green. Until now, that is. Now I own a touring bicycle, the color I will affectionately call "Dad's thermos". Say "Hello" to my new bicycle: the Surly Long Haul Trucker.
 
 Let us rewind for a minute. Ashley and I recently moved back to Nashville. As part of this move, both of us are now working out of a home office. Suddenly, our two car situation is a bit ridiculous. The car that I am leasing has set in our garage without moving for over two months now. We talked and decided that it is a bit foolish to waste the money on two vehicles. Since both of us have home offices, we rarely have need to be in two places at the same time. After crunching the numbers, even if I were to buy a used car outright, the cost of maintenance and insurance alone is not a small sum of money. Additionally, our new home has a one car garage with limited parking space in the driveway. Not exactly two car friendly.

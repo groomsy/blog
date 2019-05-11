@@ -1,12 +1,8 @@
 ---
 layout:   post
 title:    Getting out of Your Comfort Zone
-subtitle: 
 date:     2019-05-11 08:07:00 -0700
 tags:     personal
-link:     
-img:      
-alt:      
 ---
 
 One of the most difficult transitions for me is to know when it is time to get out of your comfort zone. There are many of these transitions throughout life. There are many of these:

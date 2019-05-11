@@ -1,13 +1,11 @@
 ---
 layout: post
-img: ''
 tags: personal
 title: Cross Country
 subtitle: For which there are outcomes that you are not prepared
-alt: ''
 date: 2019-02-22 23:40:00 -0600
-
 ---
+
 After three years in California, we moved back to Nashville, Tennessee. This was not a choice taken lightly. We never fully acclimated to California. We never felt "at home" there. We missed our friends. We missed our families. Surprisingly, I missed Nashville. When we made the choice to relocate, I did not appreciate how much Nashville had grown on us. I did not appreciate how much Nashville felt like "home".
 
 Ashley and I weighed our options carefully. We finally made our choice. We spoke with our employers and came to an agreement. We planned the move. We bought a house in Nashville. We sold our house in Aptos (selling a house within two years of buying it is pretty difficult and not much fun; I wish that we had been renting instead, but we did not plan on moving back so soon). I scheduled movers to pack our belongings onto a truck and ship them to Nashville. I scheduled a vehicle transportation service to load our automobiles onto a trailer and haul them to the Volunteer State. I scheduled a pet moving service to assist in moving our pets as well.
