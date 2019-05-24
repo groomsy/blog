@@ -27,3 +27,6 @@ paginate:           5
 sass:
   compressed:       true
 timezone:           'America/Los_Angeles'
+
+# Exclude tools
+exclude:            [blog-tools, Gemfile, Gemfile.lock, License.md, README.md, scenic, appcasts, advanced-layouts-with-auto-layout]

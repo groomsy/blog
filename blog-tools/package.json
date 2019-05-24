@@ -1,0 +1,14 @@
+{
+  "name": "blog-helper",
+  "version": "1.0.0",
+  "description": "A simple tool to help with my jekyll blog.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Todd Grooms",
+  "license": "ISC",
+  "dependencies": {
+    "slug": "^1.1.0"
+  }
+}
