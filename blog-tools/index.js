@@ -20,18 +20,24 @@ if (option == "post") {
   console.log("Creating post…")
   
   var date = new Date()
+  var dateString = date.getFullYear() + "-" + String("0" + date.getMonth()).slice(-2) + "-" + String("0" + date.getDay()).slice(-2)
   
   var frontMatter =
-  `
---
-title: "${title}"
---
-  `
+  `--
+layout:     post
+title:      "${title}"
+subtitle:   
+img:        https://s3-us-west-2.amazonaws.com/groomsy-debug/site/
+alt:        
+date:       ${dateString} 08:07:00 -0700
+tags:       personal/development
+link:       
+--`
   console.log("Front Matter:")
   console.log(frontMatter)
   if (title.length > 0) {
     var slug = require('slug')
-    var postSlug = date.getFullYear() + "-" + String("0" + date.getMonth()).slice(-2) + "-" + String("0" + date.getDay()).slice(-2) + "-" + slug(title).toLowerCase()
+    var postSlug = dateString + "-" + slug(title).toLowerCase()
     console.log("Slug: " + postSlug)
   }
 }
