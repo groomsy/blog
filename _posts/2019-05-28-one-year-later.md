@@ -1,7 +1,7 @@
 --
 layout:     post
 title:      "One Year Later"
-date:       2019-05-28 10:07:00 -0700
+date:       2019-05-28 10:07:00 -0500
 tags:       personal
 --
 

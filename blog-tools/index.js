@@ -20,7 +20,9 @@ if (option == "post") {
   console.log("Creating post…")
   
   var date = new Date()
-  var dateString = date.getFullYear() + "-" + String("0" + date.getMonth()).slice(-2) + "-" + String("0" + date.getDay()).slice(-2)
+  var dateString = date.getFullYear() + "-" + String("0" + (date.getMonth() + 1)).slice(-2) + "-" + String("0" + date.getDate()).slice(-2)
+  var timezoneOffsetSign = date.getTimezoneOffset() < 0 ? "+" : "-"
+  var timeString = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds() + " " + timezoneOffsetSign + String("0" + (date.getTimezoneOffset() / 60)).slice(-2) + "00"
   
   var frontMatter =
   `--
@@ -29,7 +31,7 @@ title:      "${title}"
 subtitle:   
 img:        https://s3-us-west-2.amazonaws.com/groomsy-debug/site/
 alt:        
-date:       ${dateString} 08:07:00 -0700
+date:       ${dateString} ${timeString}
 tags:       personal/development
 link:       
 --`
