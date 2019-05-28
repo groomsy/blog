@@ -1,9 +1,9 @@
---
+---
 layout:     post
 title:      "One Year Later"
 date:       2019-05-28 10:07:00 -0500
 tags:       personal
---
+---
 
 It was Memorial Day weekend 2018 when our house shopping in Nashville began in earnest. Ashley and I adored the real estate agent we had used to buy (and sell) our first home in Nashville and had reached out to her months before. She was familiar with our style and we knew which neighborhoods we wanted to focus on. She had put together an automated email of listings that Ashley and I used to help point out what we did and did not like. (Side note: one of my weird hang ups is that I love sidewalks and I almost always consider it a non-starter if there are no sidewalks in the neighborhood.) We planned a trip back to Nashville for Memorial Day weekend so that we could physically see houses. Our families would come visit that weekend and take Max to different places so that Ashley and I could focus on the task at hand: finding a new home.
 

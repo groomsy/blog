@@ -25,7 +25,7 @@ if (option == "post") {
   var timeString = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds() + " " + timezoneOffsetSign + String("0" + (date.getTimezoneOffset() / 60)).slice(-2) + "00"
   
   var frontMatter =
-  `--
+  `---
 layout:     post
 title:      "${title}"
 subtitle:   
@@ -34,7 +34,7 @@ alt:
 date:       ${dateString} ${timeString}
 tags:       personal/development
 link:       
---`
+---`
   console.log("Front Matter:")
   console.log(frontMatter)
   if (title.length > 0) {
