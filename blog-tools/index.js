@@ -63,11 +63,11 @@ else if (option == "toot") {
   generateDateTimeMetadata(date, function(dateString, timeString, timeStringSlug) {
     var frontMatter =
 `---
-layout: post
-title: null
-date: ${dateString} ${timeString}
+layout:     post
+title:      null
+date:       ${dateString} ${timeString}
 categories: [micro]
-hidden: true
+hidden:     true
 ---`
     console.log("Front Matter:")
     console.log(frontMatter)
