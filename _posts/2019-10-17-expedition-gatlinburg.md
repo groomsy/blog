@@ -2,7 +2,7 @@
 layout:     post
 title:      "Expedition: Gatlinburg"
 subtitle:   
-img:        https://s3-us-west-2.amazonaws.com/groomsy-debug/site/
+img:        https://s3-us-west-2.amazonaws.com/groomsy-debug/site/ipace-gatlinburg.jpg
 alt:        
 date:       2019-10-17 09:53:18 -0500
 tags:       personal
