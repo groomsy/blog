@@ -51,12 +51,14 @@ body {
 @media (prefers-color-scheme: light) {
   body {
     background-color: #fff;
+    color: #333;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #4b4b4b;
+    color: #eee;
   }
 }
 
