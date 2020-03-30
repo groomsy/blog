@@ -5,7 +5,7 @@ description:  >- # this means to ignore newlines until "baseurl:"
   The weblog of Todd Grooms. Chronocling one software developer's journey
   through this thing we call life.
 baseurl:      "" # the subpath of your site, e.g. /blog
-url:          "https://toddgrooms.com"
+url:          "https://www.toddgrooms.com"
 
 show_social_icons:  false
 twitter_username:   toddgrooms
