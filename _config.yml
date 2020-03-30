@@ -1,32 +1,41 @@
 # Site settings
-title:              Todd Grooms Weblog
-email:              todd.grooms@gmail.com
-author:             Todd Grooms
-description:        'Cage free, organic, all natural weblog.'
-baseurl:
-url:                'http://toddgrooms.com'
+title:        Todd Grooms Weblog
+email:        toddgrooms@fastmail.fm
+description:  >- # this means to ignore newlines until "baseurl:"
+  The weblog of Todd Grooms. Chronocling one software developer's journey
+  through this thing we call life.
+baseurl:      "" # the subpath of your site, e.g. /blog
+url:          "https://toddgrooms.com"
 
-# Optional features
-animated:           false
-show_related_posts: false
-show_post_footers:  true
-
-# Social icons
 show_social_icons:  false
-github_username:    groomsy
 twitter_username:   toddgrooms
-google_plus_id:
-linkedin_username:
-bitcoin_url:
-paypal_url:
-flattr_button:
+github_username:    groomsy
 
 # Build settings
-permalink:          pretty
-paginate:           5
-sass:
-  compressed:       true
-timezone:           'America/Memphis'
+markdown:   kramdown
+permalink:  pretty
+pagination:
+  enabled:      true
+  debug:        true
+  limit:        0
+  per_page:     10
+  permalink:    '/page/:num/'
+  sort_field:   'date'
+  sort_reverse: true
+plugins:
+  - jekyll-paginate-v2
+theme:      minima
+timezone:   'America/Memphis'
 
-# Exclude tools
-exclude:            [blog-tools, Gemfile, Gemfile.lock, License.md, README.md, scenic, appcasts, advanced-layouts-with-auto-layout]
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - License.md
+  - README.md
+  - advanced-layouts-with-auto-layout
+  - appcasts
+  - blog-tools
+  - scenic

@@ -5,7 +5,7 @@ subtitle:
 img:        
 alt:        
 date:       2020-03-29 20:36:51 -0500
-tags:       personal
+tags:       coping-with-coronavirus
 link:       
 ---
 
