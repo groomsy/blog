@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Coping with Coronavirus
+title: Personal
 pagination: 
   enabled: true
-  tag: coping-with-coronavirus
+  tag: personal
   permalink: /page/:num/
 ---
