@@ -9,6 +9,7 @@
   "author": "Todd Grooms",
   "license": "ISC",
   "dependencies": {
+    "yargs": "^15.3.1",
     "slug": "^1.1.0"
   }
 }

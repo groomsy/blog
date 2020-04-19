@@ -1,8 +1,9 @@
 const tools = require('./tools')
 
 class Post {
-  constructor(title) {
+  constructor(title, tag) {
     this.title = title
+    this.tag = tag
     
     const date = new Date()
     this.publishedDate = tools.publishedDate(date)
@@ -18,7 +19,7 @@ subtitle:
 img:        https://s3-us-west-2.amazonaws.com/groomsy-debug/site/
 alt:        
 date:       ${this.publishedDate}
-tags:       personal/development
+tags:       ${this.tag}
 link:       
 ---`
     return frontMatter
@@ -30,5 +31,7 @@ link:
     return `${this.slugDate}-${slugTitle}`
   }
 }
+
+Post.type = "post"
 
 module.exports = Post;

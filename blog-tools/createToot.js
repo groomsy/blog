@@ -25,4 +25,6 @@ hidden:     true
   }
 }
 
+Toot.type = "toot"
+
 module.exports = Toot;

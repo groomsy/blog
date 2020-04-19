@@ -1,0 +1,68 @@
+#!/usr/bin/env node
+
+const Post = require('./createPost')
+const Toot = require('./createToot')
+
+var argv = require('yargs')
+  .usage('Usage: $0 <command> <post|toot> [options]')
+  .command('create <type>', 'Create a file for the specified type (post or toot).', {}, (argv) => {
+    if (Post.type == argv.type) {
+      createPost(argv)
+    }
+    else if (Toot.type == argv.type) {
+      createToot(argv)
+    }
+    else {
+      console.error(`Unknown type.`)
+    }
+  })
+  .example('$0 create post -t "Title for a Post"', 'Create a post with the title "Title for a Post"')
+  .alias('t', 'title')
+  .describe('t', 'Title')
+  .alias('T', 'tag')
+  .describe('T', 'Tag')
+  .default('T', 'personal')
+  .help('h')
+  .alias('h', 'help')
+  .argv;
+
+function createPost(argv) {
+  if (!argv.title) {
+    console.error(`Posts are expected to have titles`)
+    return
+  }
+  
+  console.log("Generating post front matter and slug…")
+  
+  const post = new Post(argv.title, argv.tag)
+
+  console.log("Front Matter:")
+  const frontMatter = post.frontMatter()
+  console.log(frontMatter)
+
+  const slug = post.slug()
+  console.log(`Slug: ${slug}`)
+  
+  const file = `_posts/${slug}.md`
+  
+  const tools = require('./tools')
+  tools.draft("post", file, frontMatter)
+}
+
+function createToot(argv) {
+  console.log("Generating toot front matter and slug…")
+  
+  const toot = new Toot()
+  
+  console.log("Front Matter:")
+  const frontMatter = toot.frontMatter()
+  console.log(frontMatter)
+  
+  const slug = toot.slug()
+  console.log(`Slug: ${slug}`)
+  
+  const file = `_posts/micro/${slug}.md`
+  
+  const tools = require('./tools')
+  tools.draft("toot", file, frontMatter)
+}
