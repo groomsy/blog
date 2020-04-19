@@ -1,4 +1,24 @@
 module.exports = {
+  draft: function(type, file, frontMatter) {
+    const prompt = require('readline').createInterface({
+      input: process.stdin,
+      output: process.stdout
+    })
+    prompt.question(`Create the ${type}? `, reply => {
+      if (reply == "y" || reply == "Y") {
+        console.log(`Creating ${type} at ${file}…`)
+      
+        const fs = require('fs')
+        fs.writeFile(file, frontMatter, function(error) {
+          if (error) throw error
+        
+          console.log("Created!")
+        })
+      }
+      prompt.close()
+    })
+  },
+
   publishedDate: function(date) {
     const dateString = formattedDate(date)
     

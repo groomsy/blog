@@ -20,22 +20,42 @@ if (option == "post") {
   if (args.length == 3) {
     title = args[2]
   }
-  console.log("Creating post…")
+  if (title.length == 0) {
+    console.log("Post needs a title!")
+    return
+  }
+  console.log("Generating post front matter and slug…")
   
   const post = new Post(title)
+
   console.log("Front Matter:")
-  console.log(post.frontMatter())
-  if (title.length > 0) {
-    console.log("Slug: " + post.slug())
-  }
+  const frontMatter = post.frontMatter()
+  console.log(frontMatter)
+
+  const slug = post.slug()
+  console.log(`Slug: ${slug}`)
+  
+  const file = `_posts/${slug}.md`
+  
+  const tools = require('./tools')
+  tools.draft("post", file, frontMatter)
 }
 else if (option == "toot") {
-  console.log("Creating toot…")
+  console.log("Generating toot front matter and slug…")
   
   const toot = new Toot()
+  
   console.log("Front Matter:")
-  console.log(toot.frontMatter())
-  console.log("Slug: " + toot.slug())
+  const frontMatter = toot.frontMatter()
+  console.log(frontMatter)
+  
+  const slug = toot.slug()
+  console.log(`Slug: ${slug}`)
+  
+  const file = `_posts/micro/${slug}.md`
+  
+  const tools = require('./tools')
+  tools.draft("post", file, frontMatter)
 }
 else {
   console.error("Unknown option " + option)
