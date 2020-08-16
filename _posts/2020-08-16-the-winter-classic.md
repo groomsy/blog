@@ -2,7 +2,7 @@
 layout:     post
 title:      "The Winter Classic"
 subtitle:   
-img:        https://s3-us-west-2.amazonaws.com/groomsy-debug/site/
+img:        
 alt:        
 date:       2020-08-16 13:39:44 -0500
 tags:       personal
