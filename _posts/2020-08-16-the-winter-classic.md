@@ -1,0 +1,38 @@
+---
+layout:     post
+title:      "The Winter Classic"
+subtitle:   
+img:        https://s3-us-west-2.amazonaws.com/groomsy-debug/site/
+alt:        
+date:       2020-08-16 13:39:44 -0500
+tags:       personal
+link:       
+---
+
+I’ve been meaning to write this post since January. However, with Adelaide’s birth, followed by the pandemic, the abhorrent murder of George Floyd, and the inspiring Black Lives Matter protests, I have felt overwhelmed. My experiences and life seemed inconsequential. I have had the feeling that my blog does not contribute to the current world. Truthfully, it most likely does not.
+
+A handful of people who are very important to me do read this blog. I am trying to overcome the paralyzation I feel at the thought of documenting my life when there are so many notable things occurring in the world. That is why I am revisiting something that occurred at the very beginning of 2020. Bear with me.
+- - - -
+I purchased our tickets when they were first available to Predators’ season ticket holders; a friend who is a season ticket holder was able to purchase the tickets for me. I knew Max would be excited: a trip to Dallas to watch an outdoor hockey game between the Predators and the Stars. We had watched the Winter Classic on television in previous years. Ashley and I had never been to an outdoor game. It would be a shared first experience for our family.
+
+As December 2019 approached however, we realized we would not be getting the experience for which we had planned. Ashley was pregnant with Adelaide. On January 1st, Ashley would be over eight months pregnant. Not the best time for air travel. We briefly considered driving, but the a long road trip would not be much fun for her either. We eventually decided that I would take Max and she would stay home. This would be our first trip together, just the two of us. I was excited and scared.
+
+On December 31st, we were departing Nashville for Dallas. Max has always done well with air travel. Other than lugging our bags and booster seat through the airport, the air travel was a breeze. Once in Dallas, it took some time but we found the shuttle to the rental car hub. After a short bus ride to the rental car, we were on our way to the hotel. It was exciting. Max was doing great. We found a burger place for dinner, then tucked in early so we would be ready for the big game.
+
+About midnight, I awoke to a thumping bass line. The restaurant where we had eaten dinner was having a New Year’s Eve party. I silently cursed that restaurant. I have never been a big fan of New Year’s Eve celebrations and this event was not doing much to sway my opinion of them. It was hours before I finally fell back asleep. Thankfully, Max slept right through this. He is one of the heaviest sleepers I know. I have witnessed this kid sleep through an errant smoke alarm. I was worried that the length of time the music was playing would be an issue, but he slept right through it.
+
+We woke up early and ate breakfast while I planned our public transit to the Cotton Bowl, the site of the Winter Classic. I was pleasantly surprised to find out that the public transit was running on New Year’s Day, even though it is not usually scheduled to do so. Additionally, the transit was free as there would not be a good way to enforce tickets with this many people riding the train to the Cotton Bowl. The downside was the sheer number of passengers. We were packed into the cars like cattle. This is when I first started to grow concerned with our big day; I was terrified of Max getting stepped on, trampled, or getting separated from me. I held onto him tightly. Luckily, a family on the train helped make room for us and helped keep us together. They had young kids at home and could relate to our situation. They talked to us and, most importantly, talked to Max, who was excited to talk to anyone about his big day.
+
+The Cotton Bowl is located on a huge plot of land that is commonly used for fairs. The midway area was filled with food and games. The midway was overwhelmed. We played a few games, but it took forever to snake our way through lines. It was cold; not freezing, but borderline uncomfortable. Moving through the crowd was slow. I was still terrified of losing Max in the crowd. My eyes continuously scanned the midway and fell back to him, ensuring he did not leave my side I kept his hand in mine.
+
+Food lines were ridiculously long. We waited in one line for over forty-five minutes, only to be told the one item my son wanted was currently out of stock. “Are you cooking more?” I asked. The cashier confirmed that more were being cooked. “Can I buy one and wait?” I followed up. “No,” was the response. She indicated we could get back in line to try again. What in the fuck? Infuriated, I started searching for shorter lines. I found one, but it was for deep fried Oreos and hot chocolate. This was our lunch. Thankfully, we had brought Max’s small backpack which contained his water bottle and snacks. At least we could fall back on these until we were inside.
+
+About an hour before the game started, we started making our way back to the main entrance. The midway had more people in it than when we arrived. We were slowly shuffling our feet for a minute, then standing still for ten minutes; slow shuffle for a minute, stand still for ten minutes. It was horrible. I felt bodies pressing into mine and I pushed back, ensuring Max had plenty of room. I thought the pressure might be relieved once we made our way through the entrance gate, but I was very wrong. It became worse somehow. The walkways behind the bleachers where the restrooms and concessions were located was completely filled. We were walking by the restrooms when the door _opened outward_ into the crowd. What kind of idiot would design the doors to open out into the walkway?
+
+We made our way to our seats. We made one exception for a very long bathroom break, but other then that we stayed planted in our seats. The crowd was too much and I did not want to wait in long lines for concession foods, even though I was starving. We snacked on Max’s snacks and shared his water. By the time Max was ready to leave, I was starving.
+
+We left the game with less than ten minutes remaining. The Predators were comfortably on their way to a loss and Max was ready to leave. I could tell that he loved watching the game and he loved the environment. I was focused on the negatives and he was focused on the positives. I found the experience to be stressful, but I also loved spending the time with him. I knew this would be a shared memory that we would have, one that we could talk about for months or years after. It would be _ours_.
+
+The transit away from the stadium was just a clumsy, crowded, and dangerous as the transit to the stadium. We had to wait for trains, but people constantly broke the rules for boarding the trains, jumping the railing and sneaking across to cut line as much as possible. I loathed them for not waiting in line. Their lack of respect for others agitated and annoyed me. We were finally able to board a train headed back to our hotel. Our train was over capacity. My back was facing the door and my feet were on the last step before the door, past the line where you are allowed to stand. I braced myself the best I could to keep Max safe and away from the door. With each stop, more people departed the train, finally giving us breathing room.
+
+Once we arrived at our stop, I looked up the closest restaurant: _TGI Fridays_. At this point, I would eat anything. The wait staff was shorthanded (because of the holiday), so our meal was very slow. Par for the course. I ordered a beer. After all of that, I really needed one.
