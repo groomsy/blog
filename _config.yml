@@ -24,6 +24,7 @@ pagination:
   sort_reverse: true
 plugins:
   - jekyll-paginate-v2
+  - jekyll_version_plugin
 theme:      minima
 timezone:   'America/Memphis'
 
