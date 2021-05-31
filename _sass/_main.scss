@@ -37,7 +37,7 @@ img {
 }
 
 .footer, .site-wrap:after {
-  height: 160px;
+  height: 120px;
 }
 
 body {
@@ -713,14 +713,16 @@ footer:after {
 }
 
 @media (prefers-color-scheme: light) {
-  footer {
+  footer,
+  footer .wrap {
     background-color: #fafafa;
     color: #7a7a7a;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  footer {
+  footer,
+  footer .wrap {
     background-color: #404040;
     color: #cfcfcf;
   }
