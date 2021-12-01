@@ -31,6 +31,8 @@ fields:
     export_format: ''
     time_format: ''
     date_format: ''
-- type: text
-  name: tags
+- name: tags
+  type: tag_list
+  default:
+  - personal
   label: tags
