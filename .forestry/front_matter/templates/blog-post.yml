@@ -28,9 +28,9 @@ fields:
   name: date
   label: date
   config:
-    export_format: YYYY-MM-DD  hh:mm:ss Z
-    time_format: HH:mm
-    date_format: MM/DD/YYYY
+    export_format: ''
+    time_format: ''
+    date_format: ''
 - type: text
   name: tags
   label: tags
