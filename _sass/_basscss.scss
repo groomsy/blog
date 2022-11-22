@@ -168,7 +168,7 @@ strong, .bold {
 }
 
 .mb1 {
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
 }
 
 .ml1 {
@@ -359,7 +359,7 @@ strong, .bold {
 }
 
 .p-responsive {
-  padding: 1.5rem;
+  padding: 0rem;
 }
 
 .px-responsive {
@@ -373,10 +373,6 @@ strong, .bold {
 }
 
 @media screen and (min-width: 48em) and (max-width: 64em) {
-  .p-responsive {
-    padding: 3rem;
-  }
-
   .px-responsive {
     padding-right: 3rem;
     padding-left: 3rem;
@@ -388,10 +384,6 @@ strong, .bold {
   }
 }
 @media screen and (min-width: 64em) {
-  .p-responsive {
-    padding: 4rem;
-  }
-
   .px-responsive {
     padding-right: 4rem;
     padding-left: 4rem;

@@ -556,10 +556,6 @@ h6,
 }
 
 @media screen and (min-width: 48em) {
-  .site-header .site-title {
-    float: left;
-  }
-
   .meta,
   .post-meta {
     margin: 0;
@@ -640,13 +636,8 @@ h6,
     text-align: center;
   }
 
-  .site-header .site-title {
-    float: center;
-  }
-
   .site-header .site-nav {
     width: 100%;
-    float: left;
     text-align: center;
     margin-top: 0.666em;
     margin-bottom: 1.333em;
@@ -684,7 +675,7 @@ h6,
   }
 
   .posts .post {
-    margin-bottom: 2.666em;
+    margin-bottom: 2.333em;
     padding-bottom: 1.333em;
     border-bottom: thin solid #f3f3f3;
   }
