@@ -23,9 +23,8 @@ pagination:
   sort_field:   'date'
   sort_reverse: true
 plugins:
-  - jekyll-paginate-v2
-  - jekyll_version_plugin
-theme:      minima
+  - jekyll-paginate-v2     # pagination
+  - jekyll_version_plugin  # displaying build number on site
 timezone:   'America/Memphis'
 
 # Exclude from processing.
