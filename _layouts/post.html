@@ -29,7 +29,7 @@ layout: default
     {% if page.tags[0] != null %}
       <p class="post-content" style="font-size: 50%;">Tags:
       {% for tag in page.tags %}
-        <span class="post-tag">#{{ tag }}</span>
+        <a href="/tags/{{ tag }}" class="post-tag">#{{ tag }}</a>
       {% endfor %}
       </p>
     {% endif %}

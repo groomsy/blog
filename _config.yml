@@ -11,6 +11,8 @@ show_social_icons:  false
 twitter_username:   toddgrooms
 github_username:    groomsy
 
+show_excerpts:      true
+
 # Build settings
 markdown:   kramdown
 permalink:  pretty
