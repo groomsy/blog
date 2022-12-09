@@ -16,4 +16,4 @@ You may think it is ridiculous to have such an attachment to a vehicle as I have
 
 Goodbye friend.
 
-[![The New Rabbit by groomsy57](https://farm1.staticflickr.com/196/504981728_c7b9e2fe7f_z.jpg?zz=1)](https://www.flickr.com/photos/groomsy/504981728)
+[![The New Rabbit by groomsy57](/images/Rabbit_Small.jpeg)](/images/Rabbit_Full.jpeg)

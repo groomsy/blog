@@ -12,7 +12,7 @@ The older I get, the more sure I become that humanity is devolving. I can only a
 
 I have recently been stunned by what we in the technology field choose to spend our time doing and what investors insist upon funding. [A recent application received $1.5 million for doing less than current messaging applications.](http://nyti.ms/1ldavIi) That's right: an application that does nothing except send a one word message to your friends has raised $1.5 million. The New York Times piece links to a press release announcement from Blonde 2.0 (the self proclaimed world's leader of digital marketing) which is riddled with mindless drivel that attempts to glorify one of the single worst ideas I've ever heard. The press release refers to *Yo* as "[an] incredibly simple communications app". The application, as it stands today, literally allows you to send "Yo" to your friends or family. Are you fucking kidding me?
 
-![Zoolander: I Feel Like I'm Taking Crazy Pills](https://dl.dropboxusercontent.com/u/749855/Zoolander_Crazy_Pills.gif "Zoolander")
+![Zoolander: I Feel Like I'm Taking Crazy Pills](/images/Zoolander_Crazy_Pills.gif "Zoolander")
 
 The New York Times piece quotes John Borthwick, the Chief Executive of Betaworks (an early backer of *Yo*), as saying,
 
