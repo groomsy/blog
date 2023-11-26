@@ -3,7 +3,7 @@ layout:     post
 title:      "iPod of Theseus"
 subtitle:   
 img:        /images/ipod-mini-theseus.jpeg
-alt:        
+alt:        "A photograph showing an iPod Mini playing Come Together by The Beatles, next to a copy of Make Something Wonderful: Steve Jobs in his own words."
 date:       2023-11-25 08:32:08 -0600
 tags:       personal
 link:       
